@@ -69,34 +69,14 @@ p {
 }
 
 
-header {
-  grid-area: header;
-  background-color: greenyellow;
-  display: grid;
-  place-items: center start;
-}
-
-header .title {
-  width: fit-content;
-  color: #282538;
-}
-
-header .title .first-word {
-  font: 700 1.5rem 'Poppins', sans-serif;
-}
-
-header .title .second-word {
-  font: 300 1.5rem 'Poppins', sans-serif;
-}
-
 main {
   grid-area: main;
   background-color: paleturquoise;
-  display: grid;
+  /* display: grid;
   grid-template-columns: 25% 75%;
   grid-template-rows: 100%;
   grid-template-areas: 
-  "aside jobDescription";
+  "aside jobDescription"; */
   /*grid-template-columns: 25% 75%;
   grid-auto-rows: 14vh auto;
   grid-template-areas:
@@ -313,11 +293,3 @@ li.jobs-page-item {
   color: #1E86FF;
 } */
 
-
-footer {
-  grid-area: footer;
-  background-color: darksalmon;
-  display: grid;
-  place-items: center;
-  color: #B9BDCF;
-}

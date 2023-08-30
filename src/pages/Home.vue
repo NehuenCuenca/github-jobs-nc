@@ -1,12 +1,5 @@
 <template>
-    <header>
-        <div class="title">
-            <span class="first-word">Github</span>
-            <span class="second-word">Jobs</span>
-        </div>
-    </header>
-
-    <main>
+    <div class="home-page">
         <form class="search-jobs">
             <div class="parent-input">
                 <input type="text" placeholder="💼 Title, companies, expertise or benefits">
@@ -83,14 +76,13 @@
                 </li>
             </ul>
         </div>
-    </main>
-
-    <footer>created by Nehuen - devChallenges.io</footer>
+    </div>
 </template>
   
 <script>
 
 export default {
+    name: 'Home',
     setup() {
 
         return {}
@@ -116,30 +108,9 @@ export default {
 #app>* {
   padding: 0 7vw;
 } */
-header {
-    grid-area: header;
-    background-color: greenyellow;
-    display: grid;
-    place-items: center start;
-}
 
-header .title {
 
-    width: fit-content;
-    display: flex;
-    color: #282538;
-}
-
-header .title .first-word {
-    font: 700 1.5rem 'Poppins', sans-serif;
-}
-
-header .title .second-word {
-    font: 300 1.5rem 'Poppins', sans-serif;
-}
-
-main {
-    grid-area: main;
+.home-page {
     background-color: paleturquoise;
     display: grid;
     grid-template-columns: 25% 75%;
@@ -159,7 +130,7 @@ form.search-jobs {
     grid-area: formSearchJobs;
     display: grid;
     place-items: center;
-    background-image: url('./assets/backgroundImg.png');
+    background-image: url('../assets/backgroundImg.png');
     background-position: center center;
     background-repeat: no-repeat;
 }

@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="job-aplication-page">
     <div class="aside">
-      <a class="to-home" href="#">⬅ Back to search</a>
+      <RouterLink class="to-home" :to="{ name: 'Home' }">⬅ Back to search</RouterLink>
 
       <div class="how-to-apply">
         <span class="subtitle">How to Apply</span>
@@ -36,6 +36,7 @@
 import { reactive, toRefs } from 'vue'
 
 export default {
+  name: 'JobAplication',
   setup() {
     const state = reactive({
       count: 0,
@@ -49,8 +50,7 @@ export default {
 </script>
 
 <style scoped>
-main {
-  grid-area: main;
+.job-aplication-page {
   background-color: paleturquoise;
   display: grid;
   grid-template-columns: 25% 75%;
