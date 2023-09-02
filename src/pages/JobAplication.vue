@@ -21,7 +21,7 @@
       <div class="company-data">
         <img src="" alt="company-img" class="company-img">
         <span class="company-name">Company name</span>
-        <span class="company-location">Location</span>
+        <span class="company-location">🌎 Location</span>
       </div>
 
 
@@ -51,17 +51,17 @@ export default {
 
 <style scoped>
 .job-aplication-page {
-  background-color: paleturquoise;
-  display: grid;
-  grid-template-columns: 25% 75%;
-  grid-template-rows: 100%;
-  grid-template-areas:
-    "aside jobDescription";
+    background-color: paleturquoise;
+    padding: 4vh 0;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 100%;
+    grid-template-areas: "aside jobDescription";
+    gap: 2vw;
 }
 
 .aside {
   grid-area: aside;
-  padding: 2vh 0;
   display: flex;
   flex-direction: column;
   gap: 2vh 0;
@@ -90,52 +90,74 @@ p a {
 
 .job-description {
   grid-area: jobDescription;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh 0;
 }
 
 .job-data {
   width: 40%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: .5fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas:
     "chargeTitle fullTimeTag"
     "publishedAt ."
   ;
+  gap: 1vh 0;
 }
 
 .job-data .charge-title {
   grid-area: chargeTitle;
+  font: 700 1.25rem 'Roboto', sans-serif;
+  color: #334680;
 }
 
 .job-data .full-time-tag {
   grid-area: fullTimeTag;
+  border: 1px solid #334680;
+  border-radius: 4px;
+  font: 700 12px 'Roboto', sans-serif;
+  color: #334680;
+  place-self: center start;
+  padding: 3px;
 }
 
 .job-data .published-at {
   grid-area: publishedAt;
+  color: #B7BCCE;
+  font: 500 12px 'Roboto', sans-serif;
 }
 
 .company-data {
   width: 30%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: .5fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas:
     "companyImg companyName"
     "companyImg companyLocation"
   ;
+  gap: 1vh 1vw;
 }
 
 .company-data .company-img {
   grid-area: companyImg;
+  place-self: center start;
 }
 
 .company-data .company-name {
   grid-area: companyName;
+  place-self: center start;
+  font: 700 1.125rem 'Roboto', sans-serif;
+  color: #334680;
 }
 
 .company-data .company-location {
   grid-area: companyLocation;
+  place-self: center start;
+  font: 500 12px 'Roboto', sans-serif;
+  color: #B9BDCF;
 }
 
 p.description {

@@ -56,6 +56,54 @@
                         <span class="published-at">🕒 X days ago</span>
                     </div>
                 </li>
+                <li class="job-item">
+                    <div class="rigth-section">
+                        <img class="company-img" src="" alt="not found">
+                        <span class="company-name">Company name</span>
+                        <span class="job-title">Job title</span>
+                        <span class="full-time-tag">Full time</span>
+                    </div>
+                    <div class="left-section">
+                        <span class="location">🌎 Location</span>
+                        <span class="published-at">🕒 X days ago</span>
+                    </div>
+                </li>
+                <li class="job-item">
+                    <div class="rigth-section">
+                        <img class="company-img" src="" alt="not found">
+                        <span class="company-name">Company name</span>
+                        <span class="job-title">Job title</span>
+                        <span class="full-time-tag">Full time</span>
+                    </div>
+                    <div class="left-section">
+                        <span class="location">🌎 Location</span>
+                        <span class="published-at">🕒 X days ago</span>
+                    </div>
+                </li>
+                <li class="job-item">
+                    <div class="rigth-section">
+                        <img class="company-img" src="" alt="not found">
+                        <span class="company-name">Company name</span>
+                        <span class="job-title">Job title</span>
+                        <span class="full-time-tag">Full time</span>
+                    </div>
+                    <div class="left-section">
+                        <span class="location">🌎 Location</span>
+                        <span class="published-at">🕒 X days ago</span>
+                    </div>
+                </li>
+                <li class="job-item">
+                    <div class="rigth-section">
+                        <img class="company-img" src="" alt="not found">
+                        <span class="company-name">Company name</span>
+                        <span class="job-title">Job title</span>
+                        <span class="full-time-tag">Full time</span>
+                    </div>
+                    <div class="left-section">
+                        <span class="location">🌎 Location</span>
+                        <span class="published-at">🕒 X days ago</span>
+                    </div>
+                </li>
             </ul>
 
             <ul class="jobs-pagination-list">
@@ -92,26 +140,9 @@ export default {
   
 <style scoped>
 
-/* #app {
-  height: 100vh;
-  width: 100vw;
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: minmax(6vh, 7vh) 1fr auto;
-  grid-template-areas:
-    "header"
-    "main"
-    "footer"
-  ;
-}
-
-#app>* {
-  padding: 0 7vw;
-} */
-
-
 .home-page {
     background-color: paleturquoise;
+    height: 100%;
     display: grid;
     grid-template-columns: 25% 75%;
     grid-auto-rows: 14vh auto;
@@ -119,6 +150,7 @@ export default {
         "formSearchJobs formSearchJobs"
         "formFilters jobsSection"
     ;
+    gap: 4vh 0;
 }
 
 
@@ -197,10 +229,12 @@ li.checkbox-filter-item label {
 .location-filter .via-text {
     display: flex;
     flex-direction: column;
+    gap: 1vh 0;
 }
 
 .via-text .title {
-    font: 700 14px 'Poppins', sans-serif
+    font: 700 14px 'Poppins', sans-serif;
+    color: #B9BDCF;
 }
 
 .via-text input {
@@ -236,6 +270,9 @@ li.checkbox-filter-item label {
 
 ul.jobs-list {
     padding: 2vh 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 li.job-item {
@@ -262,7 +299,9 @@ li.job-item {
 
 .rigth-section .company-img {
     grid-area: img;
-
+    place-self: center;
+    width: 80%;
+    height: 80%;
 }
 
 .rigth-section .company-name {
@@ -296,6 +335,8 @@ li.job-item {
     font: 500 12px 'Roboto', sans-serif;
     color: #B7BCCE;
 }
+
+
 
 ul.jobs-pagination-list {
     display: flex;
