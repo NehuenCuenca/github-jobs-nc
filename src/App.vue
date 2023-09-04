@@ -3,7 +3,7 @@
     <div class="title">
       <span class="first-word">Github</span>
       <span class="second-word">Jobs</span>
-      <RouterLink :to="{ name: 'JobAplication', params: { job: 'asd'} }">To /job-aplication/asd</RouterLink>
+      <RouterLink :to="{ name: 'JobAplication', params: { job: 'asd' } }">To /job-aplication/asd</RouterLink>
     </div>
   </header>
 
@@ -19,44 +19,42 @@ import { RouterLink } from 'vue-router';
 
 
 export default {
-    setup() {
-        return {};
-    },
-    components: { RouterLink }
+  setup() {
+    return {};
+  },
+  components: { RouterLink }
 }
 </script>
 
 <style scoped>
-
 header {
-    grid-area: header;
-    background-color: greenyellow;
-    display: grid;
-    place-items: center start;
+  grid-area: header;
+  display: grid;
+  place-items: center start;
 }
 
 header .title {
-    width: fit-content;
-    display: flex;
-    color: #282538;
+  width: fit-content;
+  display: flex;
+  color: var(--darkPurple);
 }
 
 header .title .first-word {
-    font: 700 1.5rem 'Poppins', sans-serif;
+  font: 700 1.5rem 'Poppins', sans-serif;
 }
 
 header .title .second-word {
-    font: 300 1.5rem 'Poppins', sans-serif;
+  font: 300 1.5rem 'Poppins', sans-serif;
 }
 
-
+main {
+  grid-area: main;
+}
 
 footer {
   grid-area: footer;
-  background-color: darksalmon;
   display: grid;
   place-items: center;
-  color: #B9BDCF;
+  color: var(--placeholderGrey);
 }
-
 </style>

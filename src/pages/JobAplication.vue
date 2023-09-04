@@ -27,7 +27,17 @@
 
       <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores odit natus perferendis
         recusandae ad cumque aperiam, et molestias? Eum adipisci quidem voluptate sapiente ipsum amet animi praesentium,
-        suscipit eveniet quaerat!</p>
+        suscipit eveniet quaerat!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi facilis autem consequuntur? Laborum, id! Dolor deleniti labore eos at voluptas impedit error incidunt ipsam, a laborum explicabo inventore modi ducimus?
+      Totam fugit tenetur exercitationem libero distinctio repellat voluptatum sunt eum, nisi incidunt ad nesciunt illum pariatur culpa cum omnis, molestiae quo ut aspernatur? In mollitia laborum earum, saepe quo iusto.
+      Ea amet aliquam beatae mollitia repellat quibusdam vero, aspernatur maiores impedit totam a voluptate necessitatibus debitis obcaecati molestias praesentium aut hic assumenda eos quaerat quod alias vitae et! Voluptatem, aperiam?
+      Doloribus placeat distinctio quisquam repellendus, possimus deserunt veritatis, voluptatum dolorum earum debitis assumenda laboriosam! Earum maxime magnam at iste? Pariatur, aliquam. Voluptatem cupiditate accusamus voluptate repellendus quasi exercitationem eligendi corporis!
+      Corporis totam facilis molestiae excepturi laborum ad! Inventore aspernatur exercitationem numquam ut cupiditate illo. Adipisci, deserunt. Optio libero natus reprehenderit! Similique, dolores eius in at incidunt error corrupti repellendus minus?
+      A nesciunt itaque fuga mollitia dolore, placeat nisi velit laudantium quibusdam, explicabo nostrum deleniti asperiores? Ut libero sequi soluta, vitae culpa eius! Doloribus, quidem. Adipisci saepe molestias nostrum veniam id.
+      Eligendi temporibus numquam sed cum minus labore? Ut, culpa magnam itaque iusto reiciendis quos perspiciatis doloremque nihil, possimus asperiores animi eveniet eum aut illo ea aspernatur quidem unde ducimus. Quaerat.
+      Asperiores aut sequi ratione eaque officiis cumque! Consectetur consequatur delectus exercitationem atque cumque temporibus impedit quod magnam perferendis voluptate aut maiores enim voluptates quibusdam veritatis minus, ea odio culpa possimus.
+      Sint modi, placeat tempora minus adipisci alias eius aliquam quaerat earum voluptas neque natus distinctio delectus obcaecati. Beatae qui consequatur odit mollitia minus repellendus accusantium? At nisi iusto neque doloremque.
+      Id animi culpa doloribus totam voluptate perferendis sunt eligendi ipsum enim voluptatum recusandae dolore sit laboriosam reiciendis, dicta blanditiis consequuntur tempore non quidem libero nesciunt odio eveniet. Suscipit, maxime temporibus.</p>
     </div>
   </div>
 </template>
@@ -51,13 +61,12 @@ export default {
 
 <style scoped>
 .job-aplication-page {
-    background-color: paleturquoise;
-    padding: 4vh 0;
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-template-rows: 100%;
-    grid-template-areas: "aside jobDescription";
-    gap: 2vw;
+  padding: 4vh 0;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 100%;
+  grid-template-areas: "aside jobDescription";
+  gap: 2vw;
 }
 
 .aside {
@@ -68,24 +77,24 @@ export default {
 }
 
 a.to-home {
-  color: #1E86FF;
+  color: var(--brigthBlue);
   font: 500 14px 'Poppins', sans-serif
 }
 
 
 .how-to-apply .subtitle {
-  color: #B9BDCF;
+  color: var(--placeholderGrey);
   font: 700 14px 'Poppins', sans-serif;
 }
 
 .how-to-apply p {
   margin-top: 10px;
   font: 500 14px 'Poppins', sans-serif;
-  color: #334680;
+  color: var(--darkOceanBlue);
 }
 
 p a {
-  color: #1E86FF;
+  color: var(--brigthBlue);
 }
 
 .job-description {
@@ -110,22 +119,22 @@ p a {
 .job-data .charge-title {
   grid-area: chargeTitle;
   font: 700 1.25rem 'Roboto', sans-serif;
-  color: #334680;
+  color: var(--darkOceanBlue);
 }
 
 .job-data .full-time-tag {
   grid-area: fullTimeTag;
-  border: 1px solid #334680;
+  border: 1px solid var(--darkOceanBlue);
   border-radius: 4px;
   font: 700 12px 'Roboto', sans-serif;
-  color: #334680;
+  color: var(--darkOceanBlue);
   place-self: center start;
   padding: 3px;
 }
 
 .job-data .published-at {
   grid-area: publishedAt;
-  color: #B7BCCE;
+  color: var(--placeholderGrey);
   font: 500 12px 'Roboto', sans-serif;
 }
 
@@ -150,18 +159,76 @@ p a {
   grid-area: companyName;
   place-self: center start;
   font: 700 1.125rem 'Roboto', sans-serif;
-  color: #334680;
+  color: var(--darkOceanBlue);
 }
 
 .company-data .company-location {
   grid-area: companyLocation;
   place-self: center start;
   font: 500 12px 'Roboto', sans-serif;
-  color: #B9BDCF;
+  color: var(--placeholderGrey);
 }
 
 p.description {
-  color: #334680;
+  color: var(--darkOceanBlue);
   font: 400 1rem 'Roboto', sans-serif;
   line-height: 1.5rem;
-}</style>
+}
+
+@media (max-width: 375px) {
+  .job-aplication-page {
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "aside"
+      "jobDescription";
+    gap: 6vh 0;
+  }
+
+
+  .job-description {
+    grid-area: jobDescription;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh 0;
+  }
+
+  .job-data {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "chargeTitle"
+      "fullTimeTag"
+      "publishedAt";
+  }
+
+
+
+  .company-data {
+    width: 70%;
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "companyImg companyName"
+      "companyImg companyLocation"
+    ;
+    gap: 1vh 1vw;
+  }
+
+  .company-data .company-img {
+    place-self: center start;
+  }
+
+  .company-data .company-name {
+    place-self: center start;
+  }
+
+  .company-data .company-location {
+    place-self: center start;
+  }
+
+}
+</style>

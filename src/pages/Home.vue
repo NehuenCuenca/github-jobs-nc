@@ -139,9 +139,7 @@ export default {
 </script>
   
 <style scoped>
-
 .home-page {
-    background-color: paleturquoise;
     height: 100%;
     display: grid;
     grid-template-columns: 25% 75%;
@@ -157,7 +155,6 @@ export default {
 form.search-jobs {
     width: 100%;
     height: 14vh;
-    background-color: darkgray;
     border-radius: 8px;
     grid-area: formSearchJobs;
     display: grid;
@@ -181,14 +178,14 @@ form.search-jobs {
 
 .parent-input input {
     width: 100%;
-    padding: .6rem 20% .6rem 1rem;
+    padding: .6rem 30% .6rem 1rem;
     outline: none;
     border: transparent;
 }
 
 .parent-input input::placeholder {
     font: 400 12px 'Roboto', sans-serif;
-    color: #B9BDCF;
+    color: var(--placeholderGrey);
 }
 
 .parent-input button[type="submit"] {
@@ -196,8 +193,8 @@ form.search-jobs {
     place-self: center end;
     right: 1%;
     padding: .2rem 2.7rem;
-    background-color: #1E86FF;
-    color: #FFFFFF;
+    background-color: var(--brigthBlue);
+    color: var(--fullWhite);
     font: 500 1rem 'Roboto', sans-serif;
 }
 
@@ -210,14 +207,14 @@ form.filters {
 }
 
 li.checkbox-filter-item input {
-    background-color: #B9BDCF;
-    accent-color: #334680;
+    background-color: var(--placeholderGrey);
+    accent-color: var(--brigthBlue);
 }
 
 li.checkbox-filter-item label {
     cursor: pointer;
     font: 500 14px 'Poppins', sans-serif;
-    color: #334680;
+    color: var(--darkOceanBlue);
 }
 
 .location-filter {
@@ -234,7 +231,7 @@ li.checkbox-filter-item label {
 
 .via-text .title {
     font: 700 14px 'Poppins', sans-serif;
-    color: #B9BDCF;
+    color: var(--placeholderGrey);
 }
 
 .via-text input {
@@ -251,13 +248,13 @@ li.checkbox-filter-item label {
 
 
 .via-radios input {
-    accent-color: #334680;
+    accent-color: var(--brigthBlue);
 }
 
 .via-radios label {
     cursor: pointer;
     font: 500 14px 'Poppins', sans-serif;
-    color: #334680;
+    color: var(--darkOceanBlue);
 }
 
 .jobs-section {
@@ -286,7 +283,7 @@ li.job-item {
 }
 
 .job-item .rigth-section {
-    color: #334680;
+    color: var(--darkOceanBlue);
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: repeat(3, 1fr);
@@ -319,7 +316,7 @@ li.job-item {
 .rigth-section .full-time-tag {
     grid-area: fullTimeTag;
     font: 700 12px 'Roboto', sans-serif;
-    border: 1px solid #334680;
+    border: 1px solid var(--darkOceanBlue);
     border-radius: 4px;
     width: 25%;
     padding: .4rem;
@@ -333,7 +330,7 @@ li.job-item {
     place-items: end;
     padding-bottom: 3%;
     font: 500 12px 'Roboto', sans-serif;
-    color: #B7BCCE;
+    color: var(--placeholderGrey);
 }
 
 
@@ -345,8 +342,8 @@ ul.jobs-pagination-list {
 }
 
 li.jobs-page-item {
-    background-color: #FFFF;
-    border: 1px solid #B7BCCE;
+    background-color: var(--fullWhite);
+    border: 1px solid var(--placeholderGrey);
     border-radius: 4px;
     height: 100%;
 }
@@ -354,25 +351,88 @@ li.jobs-page-item {
 .jobs-page-item button {
     padding: .5rem;
     font: 400 12px 'Roboto', sans-serif;
-    color: #B9BDCF;
+    color: var(--placeholderGrey);
     background-color: transparent;
     width: max-content;
     height: max-content;
 }
 
 .jobs-page-item:has(.active) {
-    border: 1px solid #1E86FF;
-    background-color: #1E86FF;
+    border: 1px solid var(--brigthBlue);
+    background-color: var(--brigthBlue);
 }
 
 .jobs-page-item .active {
-    color: #FFFF;
+    color: var(--fullWhite);
 }
 
 .jobs-page-item:has( :hover) {
-    border: 1px solid #1E86FF;
+    border: 1px solid var(--brigthBlue);
 }
 
 .jobs-page-item :not(.active):hover {
-    color: #1E86FF;
-}</style>
+    color: var(--brigthBlue);
+}
+
+@media (max-width: 375px) {
+    .home-page {
+        height: auto;
+        grid-template-columns: 100%;
+        grid-auto-rows: 14vh auto auto;
+        grid-template-areas:
+            "formSearchJobs"
+            "formFilters"
+            "jobsSection"
+        ;
+        gap: 4vh 0;
+    }
+
+    .parent-input {
+        width: 95%;
+        height: 8vh;
+    }
+
+    .parent-input button[type="submit"] {
+        padding: .5rem 1rem;
+    }
+
+
+
+
+    ul.jobs-list {
+        padding: 0 2vw;
+    }
+
+    li.job-item {
+        height: auto;
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    .rigth-section .company-name {
+        place-self: center start;
+    }
+
+    .rigth-section .full-time-tag {
+        width: 28%;
+    }
+
+    .job-item .left-section {
+        padding: .5rem;
+        gap: 0 1vw;
+        place-items: start;
+    }
+
+    .left-section .location {
+        place-self: end;
+    }
+
+    ul.jobs-pagination-list {
+        width: 90%;
+        place-self: center;
+        justify-content: space-evenly;
+    }
+
+}
+</style>
