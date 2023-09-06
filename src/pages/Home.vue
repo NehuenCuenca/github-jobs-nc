@@ -10,7 +10,8 @@
         <form class="filters">
             <ul class="checkboxes-list">
                 <li class="checkbox-filter-item">
-                    <input type="checkbox" id="full-time-filter" name="full-time-filter" value="Full time">
+                    <input type="checkbox" v-model="fullTimeFilter" id="full-time-filter" name="full-time-filter"
+                        value="Full time">
                     <label for="full-time-filter">Full time</label>
                 </li>
             </ul>
@@ -18,24 +19,24 @@
             <div class="location-filter">
                 <div class="via-text">
                     <span class="title">Location</span>
-                    <input type="text" placeholder="🌎 City, state, zip code or country">
+                    <input type="text" v-model="inputTextZone" placeholder="🌎 City, state, zip code or country">
                 </div>
 
                 <ul class="via-radios">
                     <li>
-                        <input type="radio" id="London" name="fav_language" value="London">
+                        <input type="radio" v-model="inputRadioZone" id="London" name="radio_zones" :value="'London'">
                         <label for="London">London</label><br>
                     </li>
                     <li>
-                        <input type="radio" id="Amsterdam" name="fav_language" value="Amsterdam">
+                        <input type="radio" v-model="inputRadioZone" id="Amsterdam" name="radio_zones" :value="'Amsterdam'">
                         <label for="Amsterdam">Amsterdam</label><br>
                     </li>
                     <li>
-                        <input type="radio" id="New York" name="fav_language" value="New York">
+                        <input type="radio" v-model="inputRadioZone" id="New York" name="radio_zones" :value="'New York'">
                         <label for="New York">New York</label>
                     </li>
                     <li>
-                        <input type="radio" id="Berlin" name="fav_language" value="Berlin">
+                        <input type="radio" v-model="inputRadioZone" id="Berlin" name="radio_zones" :value="'Berlin'">
                         <label for="Berlin">Berlin</label>
                     </li>
                 </ul>
@@ -128,12 +129,38 @@
 </template>
   
 <script>
+import { onMounted, ref } from 'vue'
+import responseFromApi from '../response.json'
 
 export default {
     name: 'Home',
     setup() {
+        const joinedWithPlus = (words) => words.split(' ').join('+')
 
-        return {}
+        const apiKey = import.meta.env.VITE_SERP_API_KEY
+        const defaultZone = joinedWithPlus('New york')
+        const defaultJob = joinedWithPlus('Developer')
+
+        const fullTimeFilter = ref(false)
+        const inputTextZone = ref('')
+        const inputRadioZone = ref('')
+
+        const getResponseFromProject = async () => {
+            console.log(responseFromApi);
+        }
+
+        const urlApi = `https://serpapi.com/search.json?engine=google_jobs&q=${defaultJob}+${defaultZone}&hl=en&api_key=${apiKey}`
+
+        onMounted(() => {
+            getResponseFromProject()
+        })
+
+        return {
+            urlApi,
+            fullTimeFilter,
+            inputTextZone,
+            inputRadioZone,
+        }
     }
 }
 </script>
@@ -299,6 +326,11 @@ li.job-item {
     place-self: center;
     width: 80%;
     height: 80%;
+    background-color: #F2F2F2;
+    border-radius: 4px;
+    color: #BDBDBD;
+    font: 500 12px 'Roboto', sans-serif;
+    text-align: center;
 }
 
 .rigth-section .company-name {

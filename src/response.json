@@ -1,0 +1,1106 @@
+{
+    "search_metadata": {
+        "id": "64f732324055aa3e55ce8954",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/597a4809879eb241/64f732324055aa3e55ce8954.json",
+        "created_at": "2023-09-05 13:50:42 UTC",
+        "processed_at": "2023-09-05 13:50:42 UTC",
+        "google_jobs_url": "https://www.google.com/search?q=barista+new+york&ibp=htl;jobs&hl=en",
+        "raw_html_file": "https://serpapi.com/searches/597a4809879eb241/64f732324055aa3e55ce8954.html",
+        "total_time_taken": 1.15
+    },
+    "search_parameters": {
+        "q": "barista new york",
+        "engine": "google_jobs",
+        "google_domain": "google.com",
+        "hl": "en"
+    },
+    "jobs_results": [
+        {
+            "title": "Barista",
+            "company_name": "Sorella Coffee",
+            "location": "  New York, NY   ",
+            "via": "via Culinary Agents",
+            "description": "Barista Position\n\nJob description...\nWe are hiring for experienced and skilled baristas for our hole in the wall cafe in Manhattan! Sorella Coffee is a hidden gem, and quickly gaining a reputation for delicious craft coffee, beautiful energy and service. This is an amazing opportunity for you to be at the center of it! We proudly support Partner’s Coffee, and we will soon be extending our evening hours to serve wine and cheese offerings.\n\nThe gig!\n• Minimum two years experience in a specialty coffee shop\n• Have a warm, friendly and positive attitude, must be service minded, hospitality driven\n• Serve premium coffee, according to our recipes and standards, quality control\n• Great customer service, well spoken, can confidently speak about coffee drinks, suggestive selling\n• Must thrive in a fast-paced environment — this is the busiest cafe you’ll ever work in!\n• Dial-in grinders, brew coffee, make cold brew, latte art, expedite drinks, use register, have fun!\n• Assist in side work, keeping the store clean, organized, stocked, check in orders, etc.\n• Must be reliable and consistent.\n• NYC Food Handlers card a plus- otherwise we will pay for the fee, but it must be completed within 3 weeks of hire date.\n• Must be flexible to work early morning shift hours (630a start), PM shifts (until 1030pm), and weekends\n\nThe hourly rate is $15/ hour, however we guarantee this position will earn at least $25/hour inclusive of tips.\n\nWe are hiring immediately! Email your resume with a brief introduction about yourself, or reach out to us on Instagram @sorellanewyork\n\nOnly candidates with the required experience will be contacted.\n\nWe celebrate humanity!\nIt is woven into our values and philosophy to celebrate humanity in its full spectrum and treat each other with respect and appreciation. We stand for diversity, equity, and inclusion.\n\nAs an equal opportunity employer, we welcome the unique contributions that everyone can bring to Sorella Coffee and Wine, and we don’t discriminate against an employee or applicant because of their race, color, sex, sexual orientation, gender identity and/or expression, age, national origin, religion, status as a veteran, and basis of disability or any other federal, state or local protected class. We respect differences and we strongly believe that we are stronger together",
+            "job_highlights": [
+                {
+                    "title": "Qualifications",
+                    "items": [
+                        "Minimum two years experience in a specialty coffee shop",
+                        "Have a warm, friendly and positive attitude, must be service minded, hospitality driven",
+                        "Must be flexible to work early morning shift hours (630a start), PM shifts (until 1030pm), and weekends"
+                    ]
+                },
+                {
+                    "title": "Responsibilities",
+                    "items": [
+                        "Serve premium coffee, according to our recipes and standards, quality control",
+                        "Great customer service, well spoken, can confidently speak about coffee drinks, suggestive selling",
+                        "Must thrive in a fast-paced environment — this is the busiest cafe you’ll ever work in!",
+                        "Dial-in grinders, brew coffee, make cold brew, latte art, expedite drinks, use register, have fun!",
+                        "Assist in side work, keeping the store clean, organized, stocked, check in orders, etc"
+                    ]
+                },
+                {
+                    "title": "Benefits",
+                    "items": [
+                        "The hourly rate is $15/ hour, however we guarantee this position will earn at least $25/hour inclusive of tips"
+                    ]
+                }
+            ],
+            "related_links": [
+                {
+                    "link": "https://www.google.com/search?sca_esv=562751389&hl=en&q=Sorella+Coffee&sa=X&ved=0ahUKEwjZ4eHNzpOBAxVwCjQIHWjVDN8QmJACCNMJ",
+                    "text": "See web results for Sorella Coffee"
+                }
+            ],
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrmujO0_3rvFc2AMU32Li3IPv4Q92_pllwgcF0MV4&s",
+            "extensions": [
+                "4 days ago",
+                "15 an hour",
+                "Full-time",
+                "No degree mentioned"
+            ],
+            "detected_extensions": {
+                "posted_at": "4 days ago",
+                "schedule_type": "Full-time",
+                "salary": "15 an hour"
+            },
+            "job_id": "eyJqb2JfdGl0bGUiOiJCYXJpc3RhIiwiaHRpZG9jaWQiOiJoT3cyMjRmS2ROcEdPX0pEQUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFb3dDQ3N3QlFVMXJNbXhzVERsa2VGRnlWakZpYkRWRmIwaEhWWGxQWlVSQ1ptaEJiMGx6YlVOWldWYzNiazUwZDBOM1ZtNDRTbmt0UnpkSmVrcGhNRzA0Y1Zjek5uRjNNa1paYmxWMlpEUm1ObTgyTVRGSFkyNVVSVTFoTnkxMkxYVkJla05rTkhWdlZqTmFhM1ExUldSTGRuVlZZelJrWjJoUmNYRnVMVlUxV0MwNGVYcDBUa28yWDNGVWVtVTVSSHB6U0Y5eVdGVkZVVmgwY0RONFJqTTBRV3AyWjI1VlJtRTNkMjgxTTFKWk4wbElVREY0YkdaaU0xcHRXRUo1WDNOQ1ZHd3RTRFpIU2taaVVXbFVNSGRoRWhkTmFrd3pXazV0UVU1UVExVXdVRVZRTmt0eGVpMUJNQm9pUVV4RlV6bDFUVkk1TWpWb2FXdzFUbkpHUjBVMGRsUldMWE5wV0cwMFFYTlBadyIsImZjdiI6IjMiLCJmY19pZCI6ImZjXzEiLCJhcHBseV9saW5rIjp7InRpdGxlIjoiLm5GZzJlYntmb250LXdlaWdodDo1MDB9LkJpNkRkY3tmb250LXdlaWdodDo1MDB9QXBwbHkgZGlyZWN0bHkgb24gQ3VsaW5hcnkgQWdlbnRzIiwibGluayI6Imh0dHBzOi8vY3VsaW5hcnlhZ2VudHMuY29tL2pvYnMvNTA4OTEwLUJhcmlzdGEifX0="
+        },
+        {
+            "title": "Head Barista",
+            "company_name": "Black Fox Coffee",
+            "location": "  New York, NY   ",
+            "via": "via LinkedIn",
+            "description": "Black Fox Coffee Co. is looking for an experienced Senior Head Barista for our Flagship location- 70 Pine Street in Manhattan's Financial District.\n\nAs NYC’s leading specialty coffee provider for over 6 years, Black Fox Coffee is a progressive organization with a mission to make remarkably good coffee experiences accessible to all. Black Fox’s multi-roaster approach provides an unrivaled variety... of some of the best coffees from roasters across the World. Our team is comprised of experienced and enthusiastic hospitality folk from all walks of life, who continue to be excited by coffee and have a passion for making sure guests have an amazing time in-store. Our commitment to quality surpasses the status quo, we truly are hyper-focused on the finer details of maintaining a world-class coffee program across every location.\n\nThe Senior Head Barista is the company's most senior store coffee role and acts as an integral leader in the coffee space. Excellent performance in this position will provide the development pathway into the retail Head of Coffee for the right candidate. We are committed to attracting the best coffee minds in the country and can assist in the relocation cost of well-qualified applicants. If you have ever wanted to level up in your career and work in New York City- this is a fantastic opportunity to do so.\n\nIn addition, Black Fox is active on the coffee competition circuit and provides coaching and financial assistance for our employees who want to pursue this avenue.\n\nYou should have:\n• 4+ years experience in specialty coffee, Note - this is a very high volume environment, and experience in similar work environments is required\n• 2+ years experience in a leadership role in specialty coffee\n• Extremely comfortable managing coffee QC, dialing in, and stock rotation\n• Flexible work schedule and ability to work 35-40 hours/week (one weekend day required)\n• NYC Food handles license (or ability to obtain within 60 days of hire)\n• Strong communication skills, oral and verbal\n• Strong people leadership skills, ability to lead by example at all times\n• Strong skills in organization and ability to execute detail-oriented tasks\n• Ability to lift 40lbs regularly and in a standing position for long periods\n\nIn summary, this role is in service 5 days a week and has responsibilities covering both in-service periods and administrative periods.\n\nDuring service you will work on the bar daily to lead the Barsita team to success, ensuring quality assurance of the entire coffee/beverage program and keeping speed and quality service within parameters. You will be allocating daily roles to the barista team that encourage efficiency and meet Black Fox’s quality expectations, stock and merchandise retail displays and menus, manage stock control and wastage, dial-in, and manage brewing parameters of all coffees in service, and continuously training, coaching and upskilling the team.\n\nDuring the administrative time, you will be curating the coffee menu, managing orders for all aspects of the store's coffee and beverage programs, organizing stock and displays, conducting audits of QC measures, and completing inventory counts. This description is only a summary of the typical functions of the job, not an exhaustive or comprehensive list of all possible responsibilities, tasks, and duties.\n\nSalary: This position is hourly, with a rate of $21-23 per hour, plus tips.\n\nBenefits: Vision, Dental Insurance, Paid Time, 401K, commuter benefits, and company discounts.\n\nPlease send resumes to careers@blackfoxcoffee.comwith a cover letter/introduction explaining your fit for this position\n\nMore detail about Black Fox Coffee, please visit https://culinaryagents.com/entities/94833-black-fox-coffee",
+            "job_highlights": [
+                {
+                    "title": "Qualifications",
+                    "items": [
+                        "4+ years experience in specialty coffee, Note - this is a very high volume environment, and experience in similar work environments is required",
+                        "2+ years experience in a leadership role in specialty coffee",
+                        "Extremely comfortable managing coffee QC, dialing in, and stock rotation",
+                        "Flexible work schedule and ability to work 35-40 hours/week (one weekend day required)",
+                        "NYC Food handles license (or ability to obtain within 60 days of hire)",
+                        "Strong communication skills, oral and verbal",
+                        "Strong people leadership skills, ability to lead by example at all times",
+                        "Strong skills in organization and ability to execute detail-oriented tasks",
+                        "Ability to lift 40lbs regularly and in a standing position for long periods"
+                    ]
+                },
+                {
+                    "title": "Responsibilities",
+                    "items": [
+                        "In summary, this role is in service 5 days a week and has responsibilities covering both in-service periods and administrative periods",
+                        "During service you will work on the bar daily to lead the Barsita team to success, ensuring quality assurance of the entire coffee/beverage program and keeping speed and quality service within parameters",
+                        "You will be allocating daily roles to the barista team that encourage efficiency and meet Black Fox’s quality expectations, stock and merchandise retail displays and menus, manage stock control and wastage, dial-in, and manage brewing parameters of all coffees in service, and continuously training, coaching and upskilling the team",
+                        "During the administrative time, you will be curating the coffee menu, managing orders for all aspects of the store's coffee and beverage programs, organizing stock and displays, conducting audits of QC measures, and completing inventory counts"
+                    ]
+                },
+                {
+                    "title": "Benefits",
+                    "items": [
+                        "Salary: This position is hourly, with a rate of $21-23 per hour, plus tips",
+                        "Benefits: Vision, Dental Insurance, Paid Time, 401K, commuter benefits, and company discounts"
+                    ]
+                }
+            ],
+            "related_links": [
+                {
+                    "link": "https://www.google.com/search?sca_esv=562751389&hl=en&q=Black+Fox+Coffee&sa=X&ved=0ahUKEwjZ4eHNzpOBAxVwCjQIHWjVDN8QmJACCKEK",
+                    "text": "See web results for Black Fox Coffee"
+                }
+            ],
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSVPnz8g4UqPF4ShMtZFHecsnZ2e0-CnAKpdoJ3cY&s",
+            "extensions": [
+                "22 hours ago",
+                "Full-time",
+                "No degree mentioned",
+                "Health insurance",
+                "Dental insurance",
+                "Paid time off"
+            ],
+            "detected_extensions": {
+                "posted_at": "22 hours ago",
+                "schedule_type": "Full-time"
+            },
+            "job_id": "eyJqb2JfdGl0bGUiOiJIZWFkIEJhcmlzdGEiLCJodGlkb2NpZCI6IjRIUUVDUnp5WFVfRU9rdWVBQUFBQUE9PSIsImhsIjoiZW4iLCJmYyI6IkVvd0NDc3dCUVUxck1teHNTakJRUnpoS1RVRlVjVFZRTWw5SmMwUXRkVEZRTFVGVFFtNXZYMHBGVm5SR1UyUjFiamhRVEdKUVNYRlBTVGhvUkd0S0xXVjFjR1oyTVV0aldWSXRZbkZhTTNWU1V6UlRTVkExVlRKckxUWkZTbVpGZW5oU2VuSTBNbWg2VFdRM1QzbG9TSFJYZDAxU1V6TmxWV3RTWmxkMVZWWnlYMVY0YURKNllsSlJla1pEWkZORVJVUmxVMVJXTVVKaVNrNHpZMmxvUmxwRVZEUkhSemxxYzNCdGQxZFFNVVpOZEdKR2JtbFZaRzAzVkhad01YaE1iMjFPYkRaclVtZzViakl3Vkd0aFZUaERFaGROYWt3eldrNXRRVTVRUTFVd1VFVlFOa3R4ZWkxQk1Cb2lRVXhGVXpsMVRqUXRWWFpaV0V0YVNscFRTR1k0VFVaeU9HTlRURTQ1YWpNeWR3IiwiZmN2IjoiMyIsImZjX2lkIjoiZmNfMiIsImFwcGx5X2xpbmsiOnsidGl0bGUiOiJBcHBseSBvbiBMaW5rZWRJbiIsImxpbmsiOiJodHRwczovL3d3dy5saW5rZWRpbi5jb20vam9icy92aWV3L2hlYWQtYmFyaXN0YS1hdC1ibGFjay1mb3gtY29mZmVlLTM3MDQ4NzY2NzYifX0="
+        },
+        {
+            "title": "Barista",
+            "company_name": "ELOREA",
+            "location": "  New York, NY   ",
+            "via": "via Indeed",
+            "description": "ELOREA is a luxury Korean fragrance brand. Our retail space features a café that provides our guests with a multi-sensory experience, offering unique signature drinks and chocolate pairings. We are currently looking for a PT barista to join our team in NYC, reporting directly to the Store Manager. This person must be a highly motivated and energetic individual who shares our passion for fine... fragrance, specialty coffee, tea, and customer service. The role of the barista should align with the upscale experience that our guests will encounter in our retail space.\n\nDuties and Responsibilities\n• Prepare specialty coffee and espresso beverages, including latte art\n• Maintain beverage safety and cleanliness standards by completing delegated tasks\n• Have an open mind to learning new things and embracing change\n• Employees are required to complete any and all training material provided to ensure a full understanding of our menu and deliver excellent customer service\n• Ensure all items are dated and following First In First Out (FIFO) standards\n• Weigh, grind, or pack coffee beans for guests according to their specifications\n• Operate the POS system ensuring the accuracy of cash drops and the authenticity of bills\n• Consistently able to execute tasks with efficiency and grace while maintaining a sense of urgency throughout service\n• Perform other duties as required or assigned\n\nPhysical Requirements\n• Ability to exert well-paced mobility for up to 8 hours, including standing, walking, bending, and squatting\n• Regularly lift and move up to 30 lbs (Coffee bags, milk crates, paper goods, etc.)\n• Must be able to work all operational hours\n• Fast-paced movements are required to go from one part of the space to others\n\nQualifications\n• Knowledgeable and enthusiastic about coffee, tea, and drink preparation\n• Outstanding communication and guest service skills\n• 1+ year of barista experience on an automatic espresso machine preferred\n• Good problem-solving techniques and ability to do so with pace, empathy, and sometimes under pressure\n• Ability to perform simple mathematical calculations and follow directions for all production\n• Must be able to provide proof of the right to live and work in the country\n\nMore detail about ELOREA, please visit https://culinaryagents.com/entities/513236-elorea",
+            "job_highlights": [
+                {
+                    "title": "Qualifications",
+                    "items": [
+                        "Ability to exert well-paced mobility for up to 8 hours, including standing, walking, bending, and squatting",
+                        "Regularly lift and move up to 30 lbs (Coffee bags, milk crates, paper goods, etc.)",
+                        "Fast-paced movements are required to go from one part of the space to others",
+                        "Knowledgeable and enthusiastic about coffee, tea, and drink preparation",
+                        "Outstanding communication and guest service skills",
+                        "Good problem-solving techniques and ability to do so with pace, empathy, and sometimes under pressure",
+                        "Ability to perform simple mathematical calculations and follow directions for all production",
+                        "Must be able to provide proof of the right to live and work in the country"
+                    ]
+                },
+                {
+                    "title": "Responsibilities",
+                    "items": [
+                        "The role of the barista should align with the upscale experience that our guests will encounter in our retail space",
+                        "Prepare specialty coffee and espresso beverages, including latte art",
+                        "Maintain beverage safety and cleanliness standards by completing delegated tasks",
+                        "Have an open mind to learning new things and embracing change",
+                        "Employees are required to complete any and all training material provided to ensure a full understanding of our menu and deliver excellent customer service",
+                        "Ensure all items are dated and following First In First Out (FIFO) standards",
+                        "Weigh, grind, or pack coffee beans for guests according to their specifications",
+                        "Operate the POS system ensuring the accuracy of cash drops and the authenticity of bills",
+                        "Consistently able to execute tasks with efficiency and grace while maintaining a sense of urgency throughout service",
+                        "Perform other duties as required or assigned"
+                    ]
+                }
+            ],
+            "related_links": [
+                {
+                    "link": "http://www.elorea.com/",
+                    "text": "elorea.com"
+                },
+                {
+                    "link": "https://www.google.com/search?sca_esv=562751389&hl=en&q=ELOREA&sa=X&ved=0ahUKEwjZ4eHNzpOBAxVwCjQIHWjVDN8QmJACCPEK",
+                    "text": "See web results for ELOREA"
+                }
+            ],
+            "extensions": [
+                "10 hours ago",
+                "Part-time",
+                "No degree mentioned"
+            ],
+            "detected_extensions": {
+                "posted_at": "10 hours ago",
+                "schedule_type": "Part-time"
+            },
+            "job_id": "eyJqb2JfdGl0bGUiOiJCYXJpc3RhIiwiaHRpZG9jaWQiOiI5blMyZ00xVWdzenZpb2lDQUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFb3dDQ3N3QlFVMXJNbXhzVEhCQlZFeGpjMjFZYzBrMk0wSjNiV1ZwTkVwSU1VcEVTbTEwV0ZCa09WUnFWakIwYTBJNFVWUmxjM0V3T0hFNWJFUkdTek5hWTAwek9YcHZTMlpyYzJReVFVMTNVV016VURsNmExWXlaVGxwYkZkMFNHWXlYMUJvYkhWbU5YcFhPRGsyUmxGaFdVdHhVRVU0U2s5dlVGZzFiVkJuUW0xYVQwMHlNR2RJWTFCRVZtNHlTV2xyTUVneE5rUkhaMk0yYTAxVlNYWTBRalJoVm5GWVRqUTFlbmxNWjBvMU5IQTFkMVpuVm5jdGVWWkRiVVF6U0MxWWIyNVlVV2xLVEROdGVUbFZZVFJRRWhkTmFrd3pXazV0UVU1UVExVXdVRVZRTmt0eGVpMUJNQm9pUVV4RlV6bDFVSFEwUVY4NVZFTktkMkpTY0hVdFZISk5URVJTZFVVMVVuUnBVUSIsImZjdiI6IjMiLCJmY19pZCI6ImZjXzMiLCJhcHBseV9saW5rIjp7InRpdGxlIjoiQXBwbHkgb24gSW5kZWVkIiwibGluayI6Imh0dHBzOi8vd3d3LmluZGVlZC5jb20vdmlld2pvYj9qaz00YTRiODcwMzliYWUyZjY0In19"
+        },
+        {
+            "title": "Barista",
+            "company_name": "Artbean Coffee Roasters",
+            "location": "  New York, NY   ",
+            "via": "via Culinary Agents",
+            "description": "REQUIREMENTS:\n\n– Open and flexible availability including most holidays & weekends...\n– Minimum of three shifts a week\n– Be comfortable working shifts by yourself\n– NYC Food Handlers Permit (or willing to obtain one shortly after hire)\n– Minimum 1+ years experience in specialty coffee\n\nRESPONSIBILITIES:\n\n– Welcome all customers with warm hospitality\n– Maintain quality standards, attentive to detail and work within parameters set by our Lead Barista\n– Maintain work area and equipment to a high degree of cleanliness\n– Develop strong working relationships with the team\n– Ability to multitask and prioritize\n\nNICE TO HAVES:\n\n– Basic latte art skills\n– Ability to speak Mandarin/Cantonese\n– Ability to dial in espresso and filter coffee\n– An enthusiastic love of coffee\n– Interest in coffee roasting\n\nArtbean Coffee Roasters is looking for awesome people who just so happen to be baristas and those that have a strong desire to learn and grow in the specialty coffee space. We’re located on Doyers street in the heart of Chinatown right next to Nom Wah Tea Parlor, Apotheke and Chinese Tuxedo where you’ll serve many locals and tourists alike. We are a 200sq/ft takeaway shop and have an open concept that welcomes passersby as they can’t walk by without seeing the art exhibition space or smelling the wonderful scents of our freshly roasted coffee",
+            "job_highlights": [
+                {
+                    "title": "Qualifications",
+                    "items": [
+                        "– NYC Food Handlers Permit (or willing to obtain one shortly after hire)",
+                        "– Minimum 1+ years experience in specialty coffee",
+                        "– Ability to multitask and prioritize",
+                        "– Basic latte art skills",
+                        "– Ability to speak Mandarin/Cantonese",
+                        "– Ability to dial in espresso and filter coffee",
+                        "– An enthusiastic love of coffee"
+                    ]
+                },
+                {
+                    "title": "Responsibilities",
+                    "items": [
+                        "– Minimum of three shifts a week",
+                        "– Welcome all customers with warm hospitality",
+                        "– Maintain quality standards, attentive to detail and work within parameters set by our Lead Barista",
+                        "– Maintain work area and equipment to a high degree of cleanliness",
+                        "– Develop strong working relationships with the team"
+                    ]
+                },
+                {
+                    "title": "Benefits",
+                    "items": [
+                        "– Be comfortable working shifts by yourself"
+                    ]
+                }
+            ],
+            "related_links": [
+                {
+                    "link": "https://www.google.com/search?sca_esv=562751389&hl=en&q=Artbean+Coffee+Roasters&sa=X&ved=0ahUKEwjZ4eHNzpOBAxVwCjQIHWjVDN8QmJACCLcL",
+                    "text": "See web results for Artbean Coffee Roasters"
+                }
+            ],
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRROBFckYKd69fjg6ZNkQv1wekDxz0nV6Vtz9rGaF4&s",
+            "extensions": [
+                "20 days ago",
+                "17–19 an hour",
+                "Part-time",
+                "No degree mentioned"
+            ],
+            "detected_extensions": {
+                "posted_at": "20 days ago",
+                "schedule_type": "Part-time",
+                "salary": "17–19 an hour"
+            },
+            "job_id": "eyJqb2JfdGl0bGUiOiJCYXJpc3RhIiwiaHRpZG9jaWQiOiJmaF9IMVRvN1ZxTVdyemQyQUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFb3dDQ3N3QlFVMXJNbXhzUzJ0cExVczFNakJ4VUV0dlRHWnFRMnh5Vm5kNU9VSkVVVkZFVlc1TFluSTFOamxITFRkU1ZuZzJhVmszUW5Kd2VrNXhTWFZuWlVnMFZuRkpkekU0UVUxRllrRjNYMk40Ylc5ZlRtWXhVV1p0VTNWbloyeElVemxIY25GWlpHUkRWbGhVVmpsU1NWWkJTMk0zUm5SUWFrSkVRWEJ2VWw5ZldEbEtUVlZrUTA5M1RXbHlVRkp3YVc1VFRVRnRTMVJIZVRSTVIxQXhka3BJYTFsa2VXcGtRVFZ4UVcxb2JYVm5UVVJGZERsaWVqaFVhbFJpWlRkemQxWTJUVlk1Ym1rMlF6Wk1OVWxFRWhkTmFrd3pXazV0UVU1UVExVXdVRVZRTmt0eGVpMUJNQm9pUVV4RlV6bDFUVkJxWkRNeFRGQm5VWE5QU1VseGRtZ3RjM2hqWDFNM2J6aG9kdyIsImZjdiI6IjMiLCJmY19pZCI6ImZjXzUiLCJhcHBseV9saW5rIjp7InRpdGxlIjoiQXBwbHkgZGlyZWN0bHkgb24gQ3VsaW5hcnkgQWdlbnRzIiwibGluayI6Imh0dHBzOi8vY3VsaW5hcnlhZ2VudHMuY29tL2pvYnMvNTA0OTExLUJhcmlzdGEifX0="
+        },
+        {
+            "title": "Barista",
+            "company_name": "GRIZZLY COFFEE",
+            "location": "  Brooklyn, NY   ",
+            "via": "via Job Today",
+            "description": "Barista\n\nExperience: Not required...\nEmployment: Part-time\nSalary: $18 – $20 hourly\nStarting time: Immediate start!\n\nAbout GRIZZLY COFFEE",
+            "job_highlights": [
+                {
+                    "title": "Benefits",
+                    "items": [
+                        "Salary: $18 – $20 hourly"
+                    ]
+                }
+            ],
+            "related_links": [
+                {
+                    "link": "https://www.google.com/search?sca_esv=562751389&hl=en&q=GRIZZLY+COFFEE&sa=X&ved=0ahUKEwjZ4eHNzpOBAxVwCjQIHWjVDN8QmJACCPQL",
+                    "text": "See web results for GRIZZLY COFFEE"
+                }
+            ],
+            "extensions": [
+                "2 days ago",
+                "18–20 an hour",
+                "Part-time",
+                "No degree mentioned"
+            ],
+            "detected_extensions": {
+                "posted_at": "2 days ago",
+                "schedule_type": "Part-time",
+                "salary": "18–20 an hour"
+            },
+            "job_id": "eyJqb2JfdGl0bGUiOiJCYXJpc3RhIiwiaHRpZG9jaWQiOiJIc3R0TGl3TXR3RjVQdlcxQUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFdmNCQ3JjQlFVMXJNbXhzU1hSRWNtdGliemgwYVhWelRGbHpaRlZhZGxKblp6Tm9XRGh1Y25KYVMzZGFkR053VTBJNFJqWTBZMDl3ZVc5RWVsQkRXRFZLUlhwUk5UWkNVVmh0YlhZNVN6VjFlRnBaZUZCUVlYVnBXbkpMVFRjM1ltczNNMGxIUkhGa09VdFpjR0pMUW1wRFVrZDBhRjh4YlU4NFYwcGphbkk0VFZKc1RIY3RUbkZ4WkhvMVNGcFRTRTFOTWtwcGFrTk5UbEpRVFZwRVVtZGFSVmRsZHpWTVNYaFdSR1JPV0hGSU9FUmZRVWRzTVdSNVgwVXdFaGROYWt3eldrNXRRVTVRUTFVd1VFVlFOa3R4ZWkxQk1Cb2lRVXhGVXpsMVQwa3pSekp4WmpkWVEyUlBVbEpQYzFCTVVYQXlNM0l5Vm5kdGR3IiwiZmN2IjoiMyIsImZjX2lkIjoiZmNfNiIsImFwcGx5X2xpbmsiOnsidGl0bGUiOiJBcHBseSBvbiBKb2IgVG9kYXkiLCJsaW5rIjoiaHR0cHM6Ly9qb2J0b2RheS5jb20vdXMvam9iL2JhcmlzdGEtSm1ickRqIn19"
+        },
+        {
+            "title": "Barista",
+            "company_name": "Super Nice Coffee and Bakery by Danny Macaroons",
+            "location": "  New York, NY   ",
+            "via": "via Culinary Agents",
+            "description": "Hello!\n\nWe are a small specialty coffee shop and bakery in Manhattan. We're passionate about coffee and food and about serving our neighborhood with the best products and service that we can. We pride ourselves on making some of the most delicious things in New York City (we have been featured in the Infatuation, NY Times, Eater, Food + Wine, and many others) and our team is growing...\n\nWe are for experienced, talented baristas who loves working in coffee and making people happy.\n\nSome Duties and Responsibilities:\n• Responsible for opening or closing the shop (key holder position).\n• Dialing in espresso as needed throughout the shift.\n• Cleaning, upkeep, and maintenance of all coffee equipment.\n• General shop cleaning, inventory-taking, and restocking.\n• Communicate with BOH regarding baked items.\n• Keeping shop clean, sanitized, and inspection ready.\n• Making menu drinks to order in a timely fashion.\n• Expert customer service\n• Placing orders for milk and other supplies\n• Receiving and putting orders away.\n• Related duties as assigned by Manager.\n• You may have to lift somewhat heavy things (up to 50lbs) from time to time.\n\nSome Qualifications:\n• You take your coffee seriously.\n• You can jump right in and make the perfect cortado; operate a manual espresso machine like a La Marzocco in your sleep; and you're comfortable dialing in and maintaining consistent product.\n• You're fun to work with and to be around. We'd be happy to wake up early in the morning to work a shift with you, and you'll always provide our customers with a warm, friendly and welcoming experience.\n• You're approachable, social, and make customers feel welcome.\n• You're serious about your craft and you take pride in it. That will likely mean that you have an eye for detail, that you're proactive, and that you're invested in what you do. We take what we do really seriously and you'll be a great fit if you do, too.\n\nApplicant Requirements:\n• At least a year of experience in a third wave shop making quality espresso beverages, including dialing in, maintaining consistent espresso extraction and experience in batch brewing. If you don't have experience in a specialty shop, this job is not for you as we need someone who can jump in immediately.\n• Ability to consistently perform and produce excellent quality espresso beverages quickly and under pressure.\n• Possess a passion for personalized customer service and developing relationships with customers, as all our baristas must be comfortable with taking customer orders and other aspects of café service.\n• Strong team member with an ability to multitask and work with others.\n• Have a food handler's permit issued by NYC DOH (or be willing to obtain one before you start working for us).\n• Would be awesome if you lived near Columbia or in/near Chelsea\n\nJob Type: 15-25hrs/wk\nAM shifts are 630-1230\nPM shfits are 1230-630 (or 2-7)\n\nExpo shifts also potentially available as well (745a-1p)\n\nthis position includes weekends. weekend availability is required",
+            "job_highlights": [
+                {
+                    "title": "Qualifications",
+                    "items": [
+                        "You can jump right in and make the perfect cortado; operate a manual espresso machine like a La Marzocco in your sleep; and you're comfortable dialing in and maintaining consistent product",
+                        "You're fun to work with and to be around",
+                        "We'd be happy to wake up early in the morning to work a shift with you, and you'll always provide our customers with a warm, friendly and welcoming experience",
+                        "You're serious about your craft and you take pride in it",
+                        "At least a year of experience in a third wave shop making quality espresso beverages, including dialing in, maintaining consistent espresso extraction and experience in batch brewing",
+                        "If you don't have experience in a specialty shop, this job is not for you as we need someone who can jump in immediately",
+                        "Ability to consistently perform and produce excellent quality espresso beverages quickly and under pressure",
+                        "Possess a passion for personalized customer service and developing relationships with customers, as all our baristas must be comfortable with taking customer orders and other aspects of café service",
+                        "Strong team member with an ability to multitask and work with others",
+                        "Have a food handler's permit issued by NYC DOH (or be willing to obtain one before you start working for us)",
+                        "Would be awesome if you lived near Columbia or in/near Chelsea"
+                    ]
+                },
+                {
+                    "title": "Responsibilities",
+                    "items": [
+                        "Responsible for opening or closing the shop (key holder position)",
+                        "Dialing in espresso as needed throughout the shift",
+                        "Cleaning, upkeep, and maintenance of all coffee equipment",
+                        "General shop cleaning, inventory-taking, and restocking",
+                        "Communicate with BOH regarding baked items",
+                        "Keeping shop clean, sanitized, and inspection ready",
+                        "Making menu drinks to order in a timely fashion",
+                        "Expert customer service",
+                        "Placing orders for milk and other supplies",
+                        "Receiving and putting orders away",
+                        "Related duties as assigned by Manager",
+                        "You may have to lift somewhat heavy things (up to 50lbs) from time to time"
+                    ]
+                }
+            ],
+            "related_links": [
+                {
+                    "link": "https://www.google.com/search?sca_esv=562751389&hl=en&q=Super+Nice+Coffee+and+Bakery+by+Danny+Macaroons&sa=X&ved=0ahUKEwjZ4eHNzpOBAxVwCjQIHWjVDN8QmJACCMMM",
+                    "text": "See web results for Super Nice Coffee and Bakery by Danny Macaroons"
+                }
+            ],
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNYngyoaM4mlwY3yFrfNfGQdgdigTtriQxZGkJfzQ&s",
+            "extensions": [
+                "4 days ago",
+                "16 an hour",
+                "Full-time",
+                "No degree mentioned"
+            ],
+            "detected_extensions": {
+                "posted_at": "4 days ago",
+                "schedule_type": "Full-time",
+                "salary": "16 an hour"
+            },
+            "job_id": "eyJqb2JfdGl0bGUiOiJCYXJpc3RhIiwiaHRpZG9jaWQiOiI0V1hna3l0WC0ydlRVWktHQUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFcmNDQ3ZjQlFVMXJNbXhzU1hCVmFXSXhWa3h0VEVaR1N6VldUa05tTkd4Q1EzQlFhbE42YTBNd2FsSXRjMFp4ZW5ORmRFZHdaamN3TUdKck5rWmxjbXhpUWtabUxYTXlUVlZHWjJsNWNUSk5iRXA2VkdGbmJrdDBlRXRaVTNKVVVIaHJaRmxqUlVOd2JVSmplVVZ2ZWpseU0wVkJPSGx2VEZsTFZGSmlVVEJvZG10aUxVWllUeTFGVm1SaVpHRjFlVXhmV1RseWNGQnlTSFF4TmxsWFJqSnhjamhOUTFkVVpVRlpkbWR4VWxaMVpqWkVZME5YVkdwZlZWcGlWM2RTZWxCdmNrazNkVFZ6WDE5MWRFRndNVkZVVVVZd1pXZGtTMXBhY0MxWVlYQk5PVVpTUWtGSVpWTTNOa0pQYkdSa2RXTkZaa3RyUjBsd1FuWldNQklYVFdwTU0xcE9iVUZPVUVOVk1GQkZVRFpMY1hvdFFUQWFJa0ZNUlZNNWRVNUtSbTVVUlZaU1VsUmlialo0U21wNVptaEhiRWxRVTBwMk9VRSIsImZjdiI6IjMiLCJmY19pZCI6ImZjXzciLCJhcHBseV9saW5rIjp7InRpdGxlIjoiQXBwbHkgZGlyZWN0bHkgb24gQ3VsaW5hcnkgQWdlbnRzIiwibGluayI6Imh0dHBzOi8vY3VsaW5hcnlhZ2VudHMuY29tL2pvYnMvNTA4OTAxLUJhcmlzdGEifX0="
+        },
+        {
+            "title": "Barista/Cashier",
+            "company_name": "A’more Caffe",
+            "location": "  New York, NY   ",
+            "via": "via Indeed",
+            "description": "A’more Caffe is a small neighborhood coffee shop located in LES, we're currently looking for a Barista to prepare and serve hot and cold beverages, including various types of coffee and tea. Barista responsibilities include educating customers on our drinks menu, making recommendations based on their preferences, up-selling special items and taking orders. To be successful in this role, you... should have customer service skills and knowledge of how brewing equipment operates. You should be able to work various shifts. Note: this position’s compensation includes salary and tips. Ultimately, you’ll ensure an excellent drinking experience for our guests.\n\nResponsibilities\n• Always ready to make your customers' day, with a passion for excellent customer service\n• A reliable employee who is able to effectively manage time and priorities.\n• Prepare beverages following recipes and keep the bar area clean\n• Receive and process payments (cash and credit cards)\n• Check if brewing equipment operates properly and report any maintenance needs\n• A strong independent problem solver with proven multi-tasking and communication skills\n• Comfortable working in a team or independently\n\nSkills & Requirements\n• Experience in the customer service or hospitality industry (preferred)\n• Part Time: 15-25 hours per week, 3 days per week (weekday availability required)\n• Able to lift 25+ lbs, and to stand for long periods of time\n• Ability to gauge customers’ preferences\n• Excellent communication skills\n\nJob Type: Part-time\n\nPay: $15.00 - $17.00 per hour\n\nBenefits:\n• Employee discount\n• Flexible schedule\n• Paid training\n\nRestaurant type:\n• Coffee shop\n\nShift:\n• 10 hour shift\n• 4 hour shift\n• Day shift\n• Morning shift\n\nWeekly day range:\n• Monday to Friday\n\nAbility to commute/relocate:\n• New York, NY 10009: Reliably commute or planning to relocate before starting work (Required)\n\nExperience:\n• Guest services: 1 year (Preferred)\n• Barista experience: 1 year (Preferred)\n\nShift availability:\n• Day Shift (Preferred)\n\nWork Location: In person",
+            "job_highlights": [
+                {
+                    "title": "Qualifications",
+                    "items": [
+                        "Comfortable working in a team or independently",
+                        "Part Time: 15-25 hours per week, 3 days per week (weekday availability required)",
+                        "Able to lift 25+ lbs, and to stand for long periods of time",
+                        "Ability to gauge customers’ preferences",
+                        "Excellent communication skills",
+                        "New York, NY 10009: Reliably commute or planning to relocate before starting work (Required)"
+                    ]
+                },
+                {
+                    "title": "Responsibilities",
+                    "items": [
+                        "Barista responsibilities include educating customers on our drinks menu, making recommendations based on their preferences, up-selling special items and taking orders",
+                        "To be successful in this role, you should have customer service skills and knowledge of how brewing equipment operates",
+                        "You should be able to work various shifts",
+                        "Always ready to make your customers' day, with a passion for excellent customer service",
+                        "A reliable employee who is able to effectively manage time and priorities",
+                        "Prepare beverages following recipes and keep the bar area clean",
+                        "Receive and process payments (cash and credit cards)",
+                        "Check if brewing equipment operates properly and report any maintenance needs",
+                        "10 hour shift"
+                    ]
+                },
+                {
+                    "title": "Benefits",
+                    "items": [
+                        "Pay: $15.00 - $17.00 per hour",
+                        "Employee discount",
+                        "Flexible schedule",
+                        "Paid training"
+                    ]
+                }
+            ],
+            "related_links": [
+                {
+                    "link": "https://www.google.com/search?sca_esv=562751389&hl=en&q=A%E2%80%99more+Caffe&sa=X&ved=0ahUKEwjZ4eHNzpOBAxVwCjQIHWjVDN8QmJACCIwN",
+                    "text": "See web results for A’more Caffe"
+                }
+            ],
+            "extensions": [
+                "2 days ago",
+                "15–17 an hour",
+                "Part-time",
+                "No degree mentioned"
+            ],
+            "detected_extensions": {
+                "posted_at": "2 days ago",
+                "schedule_type": "Part-time",
+                "salary": "15–17 an hour"
+            },
+            "job_id": "eyJqb2JfdGl0bGUiOiJCYXJpc3RhL0Nhc2hpZXIiLCJodGlkb2NpZCI6IlJhNHJnanMtTThhelgwdjRBQUFBQUE9PSIsImhsIjoiZW4iLCJmYyI6IkVvd0NDc3dCUVUxck1teHNTM2RrWVhndE1uWXhORkZ4WkVkNlRXRkdjMnR0UVRRMFJraEJTbUl4Tld0S1pGWjFSbE0xVlUwdGNVZGpNRlE0YmkwMk1Ua3lhaTFxV0RSTlZUbEZPVE5LYTBob2IwUjRWMXBFWVc1dE5FczNWSFk0VWpkUldpMXRaVmd5WTJWTk4wTnpVbTlCYW5Sd1NGOHlRazFMUTBscFIzQkhSWFl0VlVNeGNVNVlaRnBDUTJsT2JHVXRRMHgyZFhSYVMwVmZiR0pCYUVNMmFFUkdkSFkyYjNCUWMyUXpiVTVNWmswMmFHTktSVFJrTkVaU1JGOVhlRWxFU1RCMVVVVkNiVXRJUzNKMFRuSnRFaGROYWt3eldrNXRRVTVRUTFVd1VFVlFOa3R4ZWkxQk1Cb2lRVXhGVXpsMVRrdGZXSEpTUlhoU1YyODRhVWRpYzJkMVNrcFNjR0pMUWxkMVVRIiwiZmN2IjoiMyIsImZjX2lkIjoiZmNfOCIsImFwcGx5X2xpbmsiOnsidGl0bGUiOiJBcHBseSBkaXJlY3RseSBvbiBJbmRlZWQiLCJsaW5rIjoiaHR0cHM6Ly93d3cuaW5kZWVkLmNvbS92aWV3am9iP2prPWNmYjZkMWU1YTUyZjkwMTkifX0="
+        },
+        {
+            "title": "Barista",
+            "company_name": "Split Eights",
+            "location": "  New York, NY   ",
+            "via": "via Culinary Agents",
+            "description": "Currently hiring for a part-time barista at Split Eights, a coffee bar by day/cocktail bar by night, located on a residential block in the heart of the Financial District. With ownership and staff experience in NYC cafés, cocktail bars, and fine-dining, the ideal individual to join our coffee program would share our passion for providing high-end hospitality in a community environment.\n\nWe are... currently hiring specifically for a Wednesday and a Saturday shift, 7:30am/8:30am to 3:30/4pm. There is the potential for transitioning into a full-time position in the future.\n\nDuties & Responsibilities to Include:\n• Crafting balanced quality espresso drinks using local roaster Parlor Coffee, and maintaining quality control in accordance with the standards of third-wave coffee, tea, and (minimal) cocktail service\n• Assisting in cash-handling, customer transactions, stocking, cleaning and clearing, and other general café duties\n• Providing consistently efficient and warm service, equipped with knowledge of the product and establishing the customer experience\n• Creating an inclusive environment for customers and co-workers alike\n• Maintaining a clean and organized workspace, both behind the bar and front of house\n• Following health and safety guidelines for all spaces, products, and equipment\n• Opening the café and assisting in the transition to evening service\n\nPosition Requirements:\n• Minimum 1-year experience as a speciality coffee barista; NYC service experience preferable\n• Ability to dial in espresso, and sufficient experience on a La Marzocco or equivalent espresso machine(s)\n• Excellent work ethic and communication skills\n• Ability to multitask, prioritize, and work independently in all café positions\n• Respectful, detail-oriented, and reliable personality\n• Ideally be able to occasionally lift and move 50 lb. minimum and climb stairs\n• Ownership of NYC Food Handlers Card (or willing to obtain one after hire)\n• Ideally be able to pick up/cover shifts if needed\n• A taste for cocktails is not required, but is very welcome!\n• No racists, no sexists, no assholes. Zero tolerance on all adjacent garbage.\n\nIf interested, please send your resume as an attachment to info@spliteightsnyc.com, as well as any pertinent information about yourself, your schedule, and your experience in coffee and hospitality. We look forward to hearing from you",
+            "job_highlights": [
+                {
+                    "title": "Qualifications",
+                    "items": [
+                        "Minimum 1-year experience as a speciality coffee barista; NYC service experience preferable",
+                        "Ability to dial in espresso, and sufficient experience on a La Marzocco or equivalent espresso machine(s)",
+                        "Excellent work ethic and communication skills",
+                        "Ability to multitask, prioritize, and work independently in all café positions",
+                        "Respectful, detail-oriented, and reliable personality",
+                        "Ideally be able to occasionally lift and move 50 lb",
+                        "minimum and climb stairs",
+                        "Ownership of NYC Food Handlers Card (or willing to obtain one after hire)",
+                        "Ideally be able to pick up/cover shifts if needed",
+                        "A taste for cocktails is not required, but is very welcome!"
+                    ]
+                },
+                {
+                    "title": "Responsibilities",
+                    "items": [
+                        "Crafting balanced quality espresso drinks using local roaster Parlor Coffee, and maintaining quality control in accordance with the standards of third-wave coffee, tea, and (minimal) cocktail service",
+                        "Assisting in cash-handling, customer transactions, stocking, cleaning and clearing, and other general café duties",
+                        "Providing consistently efficient and warm service, equipped with knowledge of the product and establishing the customer experience",
+                        "Creating an inclusive environment for customers and co-workers alike",
+                        "Maintaining a clean and organized workspace, both behind the bar and front of house",
+                        "Following health and safety guidelines for all spaces, products, and equipment",
+                        "Opening the café and assisting in the transition to evening service"
+                    ]
+                }
+            ],
+            "related_links": [
+                {
+                    "link": "https://www.google.com/search?sca_esv=562751389&hl=en&q=Split+Eights&sa=X&ved=0ahUKEwjZ4eHNzpOBAxVwCjQIHWjVDN8QmJACCNkN",
+                    "text": "See web results for Split Eights"
+                }
+            ],
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQQJhPafs1fr8dGF4A8mGSQU6BjUFFu8o0ExUWT4o&s",
+            "extensions": [
+                "15 days ago",
+                "17–19 an hour",
+                "Full-time",
+                "No degree mentioned"
+            ],
+            "detected_extensions": {
+                "posted_at": "15 days ago",
+                "schedule_type": "Full-time",
+                "salary": "17–19 an hour"
+            },
+            "job_id": "eyJqb2JfdGl0bGUiOiJCYXJpc3RhIiwiaHRpZG9jaWQiOiJsMW8yamRPTXRMSVM0S2RmQUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFdmNCQ3JjQlFVMXJNbXhzVEhGcmNWZ3dRVFF4YUMxQmVucGlVM0ZoUTFCS1prRXlTalZNY1ZaU2N6ZFFlRmwyYmpnM1lWVkdWRnBUUVVSYVVrOU1hbGxqV1RCeFZWTkJRamRRUVdoVFdsSktWRlZzY0had2NFWTBWR3h4ZW5sbFMzTTRaamhYWHpOS00zQnNNM1JtU0RJNWRVVXdOWE5NUjNFeVF6WjVXa0ZQZURod2EyNU1kVlZNYzIxUlQxWnhNRVZUUWxCSGVrdERiRTVKY0VaNloxcEhVMjlwUzBsdE9ETjRWVEpPWnpaNlEyeG5TVkZNU2xKSGRFc3dFaGROYWt3eldrNXRRVTVRUTFVd1VFVlFOa3R4ZWkxQk1Cb2lRVXhGVXpsMVRWRjZSMjE0VVhWNFFsaDFla3R4YlhwNWJIQnpNa2hyVkZkV2R3IiwiZmN2IjoiMyIsImZjX2lkIjoiZmNfOSIsImFwcGx5X2xpbmsiOnsidGl0bGUiOiJBcHBseSBkaXJlY3RseSBvbiBDdWxpbmFyeSBBZ2VudHMiLCJsaW5rIjoiaHR0cHM6Ly9jdWxpbmFyeWFnZW50cy5jb20vam9icy81MDYwOTQtQmFyaXN0YSJ9fQ=="
+        },
+        {
+            "title": "Barista",
+            "company_name": "PJ's Coffee",
+            "location": "  New York, NY   ",
+            "via": "via ZipRecruiter",
+            "description": "Benefits/Perks\n• Ongoing Management and leadership training opportunities\n• Employee retail and shift discounts...\n• Prize opportunities through national contests\n• Local, regional, and national awards and recognition\n\nAbout PJ's Coffee\n\nPhyllis Jordan, a pioneer in the coffee industry, founded PJ's Coffee of New Orleans in 1978 and demonstrated that better beans, superior roasting techniques, and pure passion for the art of coffeemaking mattered. In 2008, the company was purchased by New Orleans natives and brothers, Paul, Steven, and Scott Ballard. PJ's Coffee serves a wide variety of hot, iced, and frozen coffee beverages using only the top 1% of Arabica beans, as well as organic tea and fresh breakfast pastries. PJ's Original Cold Brew™ Ice Coffee is brewed daily using a special cold-drip process that protects the flavor and strength of the beans while producing a coffee that is two-thirds less acidic - a process and technique developed by its founder and used for more than 40 years at all PJ's locations. Bags of whole bean coffee and single-serve cups of PJ's Coffee are available for sale in-store and online. With more than 145 operating stores, including four international locations, PJ's Coffee continues to grow in the U.S. and abroad. For more information, visit pjscoffee.com or follow PJ's Coffee on Facebook, Instagram, or Twitter.\n\nJob Summary\n\nThe barista is responsible for being the master craftsman of all beverage and food items offered by PJ's Coffee. They are responsible for developing a positive environment for both customers and fellow staff members, all while providing consistently fast, efficient, and friendly service to all. The barista is responsible for the reputation and integrity of the PJ's brand and of the specific store in which they are employed. The barista must exude impeccable customer service qualities, product knowledge, and education, encouraging safe work practices, and a demonstrated commitment to the core values and principles of PJ's Coffee. More importantly, a person in this role must be dedicated to the success of their growth within the company and enter the company with the intent to grow and move into larger roles.\n\nResponsibilities\n• Present a positive image of PJ's customers and coworkers\n• Proactively suggest new beverages, drink enhancements, snacks, and pastries, to improve the overall experience and knowledge of customers.\n• Prepare all beverages and food to meet PJ's Coffee specifications and customer satisfaction.\n• Ensure that the store offers excellent customer service as it pertains to the operation of the staff and the physical upkeep of the store.\n• Follow cash handling procedures accurately\n• Ensure the interior and exterior of a store meet sanitary, safety, and aesthetic requirements by maintaining daily shift checklists and par levels.\n• Alert management to operational needs, equipment failure, and necessary improvements that are needed\n• Enforce and abide by company policies, procedures, and safety rules\n• Attend training sessions designed to increase coffee knowledge and work skills and apply that knowledge to operations\n\nQualifications\n• Barista experience is Ok, but not required! You will be trained in the PJ's ways of serving the best cup of coffee in town!\n• Outgoing and engaging personality\n• Exceptional communication and relationship-building skills\n• Ability to multi-task and work in a fast-paced, team environment\n• Ability to communicate through different communication channels, including email, phone, project management software, and conference calls (if necessary)\n\nCompensation: $11.00 - $14.00 per hour\n\nPJ's Coffee of New Orleans was founded in 1978 by Phyllis Jordan, a pioneer in the coffee industry who embraced high-quality beans, superior roasting methods, and a pure passion for the art of coffee making. Today, PJ's Coffee is recognized for harvesting, roasting,and personally crafting gourmet drinks using only the top 1% of Arabica beans and delicious organic tea. In addition, our selection of fresh breakfast pastries and hot breakfast sandwiches makes for the perfect beverage pairing.\n\nPJ's Coffee carries a complete line of espresso-based beverages, flavored coffee, and award-winning Original Cold BrewTM Iced Coffee. PJ's Coffee is committed to bringing our customers the freshest coffee possible, while developing programs to ensure quality of life is improved through community initiatives and by supporting local school programs",
+            "job_highlights": [
+                {
+                    "title": "Qualifications",
+                    "items": [
+                        "Barista experience is Ok, but not required!",
+                        "You will be trained in the PJ's ways of serving the best cup of coffee in town!",
+                        "Outgoing and engaging personality",
+                        "Exceptional communication and relationship-building skills",
+                        "Ability to multi-task and work in a fast-paced, team environment",
+                        "Ability to communicate through different communication channels, including email, phone, project management software, and conference calls (if necessary)"
+                    ]
+                },
+                {
+                    "title": "Responsibilities",
+                    "items": [
+                        "The barista is responsible for being the master craftsman of all beverage and food items offered by PJ's Coffee",
+                        "The barista must exude impeccable customer service qualities, product knowledge, and education, encouraging safe work practices, and a demonstrated commitment to the core values and principles of PJ's Coffee",
+                        "Present a positive image of PJ's customers and coworkers",
+                        "Proactively suggest new beverages, drink enhancements, snacks, and pastries, to improve the overall experience and knowledge of customers",
+                        "Prepare all beverages and food to meet PJ's Coffee specifications and customer satisfaction",
+                        "Ensure that the store offers excellent customer service as it pertains to the operation of the staff and the physical upkeep of the store",
+                        "Follow cash handling procedures accurately",
+                        "Ensure the interior and exterior of a store meet sanitary, safety, and aesthetic requirements by maintaining daily shift checklists and par levels",
+                        "Alert management to operational needs, equipment failure, and necessary improvements that are needed",
+                        "Enforce and abide by company policies, procedures, and safety rules",
+                        "Attend training sessions designed to increase coffee knowledge and work skills and apply that knowledge to operations"
+                    ]
+                },
+                {
+                    "title": "Benefits",
+                    "items": [
+                        "Ongoing Management and leadership training opportunities",
+                        "Employee retail and shift discounts",
+                        "Prize opportunities through national contests",
+                        "Local, regional, and national awards and recognition",
+                        "Compensation: $11.00 - $14.00 per hour"
+                    ]
+                }
+            ],
+            "related_links": [
+                {
+                    "link": "http://www.pjscoffee.com/",
+                    "text": "pjscoffee.com"
+                },
+                {
+                    "link": "https://www.google.com/search?sca_esv=562751389&hl=en&q=PJ%27s+Coffee&sa=X&ved=0ahUKEwjZ4eHNzpOBAxVwCjQIHWjVDN8QmJACCKMO",
+                    "text": "See web results for PJ's Coffee"
+                }
+            ],
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScybT8s1bXMM_fK1HA_tpQskLCuCHixsEnJHFj&s=0",
+            "extensions": [
+                "3 days ago",
+                "Full-time",
+                "No degree mentioned"
+            ],
+            "detected_extensions": {
+                "posted_at": "3 days ago",
+                "schedule_type": "Full-time"
+            },
+            "job_id": "eyJqb2JfdGl0bGUiOiJCYXJpc3RhIiwiaHRpZG9jaWQiOiJncVprTEhIQ0xXSG54R3lfQUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFb3dDQ3N3QlFVMXJNbXhzU2s5TFpteFBlVXRwWDBWMmVEQmpValJYY1d4ck1YRmlMWFZPUldSS05rUkxhM00zVVc5WE5VcGFWRUZWWDJwRlpuZDBMVGhNV1VReFdteHdja1Z2WHpGVVQwZGtUamxMUmtWWk5VNUJOV041ZW1WNFpWOTNWM2t6TWpOb1QwZGtiSEZKZFZwbE9HMWphSFZvTjB3emRISmZWWG80TVdwcWRtbFVOekpOVkROZmRFUlFYMDFJYWtWeU1EVm9UWFpOYUhVdFJuaFZabTFIWTBsQ1UwbEpkREpNZEdscGNESnlRMTlYYm1GTlV6SnJUMnhKU0ZweU1HUjRVRVUxUTBoNk9VYzFXVmxRRWhkTmFrd3pXazV0UVU1UVExVXdVRVZRTmt0eGVpMUJNQm9pUVV4RlV6bDFVR2RpZHpGWmRqbEpSWE5PTldkcU5IVkJibkpzVTBOcmFWaEtRUSIsImZjdiI6IjMiLCJmY19pZCI6ImZjXzEwIiwiYXBwbHlfbGluayI6eyJ0aXRsZSI6IkFwcGx5IG9uIFppcFJlY3J1aXRlciIsImxpbmsiOiJodHRwczovL3d3dy56aXByZWNydWl0ZXIuY29tL2MvUEpzLUNvZmZlZS9Kb2IvQmFyaXN0YS8taW4tTmV3LVlvcmssTlk/amlkPTJkNWRiNTA2NWM2NWE5ZmUifX0="
+        },
+        {
+            "title": "Barista (Weekly pay + TIPS!)",
+            "company_name": "Eataly",
+            "location": "  New York, NY   ",
+            "via": "via Salary.com",
+            "description": "Eataly is hiring Baristas to join our team!\n\nStarting salary range for this position is $17 per hour plus tips (tips can range from an additional $5-10 per hour...\n\nFounded in Italy in 2007, Eataly is the world’s largest artisanal Italian food and beverage marketplace. At Eataly, you can Eat a meal at restaurants or quick-service counters, Shop for the ingredients, and Learn through classes and tastings. Eat Better, Live Better! Eataly is an Equal Opportunity Employer.\n\nJOB OVERVIEW\n\nA Barista creates and serves specialty hot and cold beverages according to Eataly’s recipes and guests’ special requests. A Barista is knowledgeable about all coffee menu items, provides high-quality, fast-paced service and is able to work at multiple QSR counters performing various functions. Reports to the QSR General Manager and the QSR Assistant General Managers.\n\n· Prepares and serves authentic Italian espresso, coffee and other café drinks at multiple counters\n\n· Provides guests with exceptional service and product details, such as coffee blend or preparation description\n\n· Sets up stations and replenishes displays neatly including separation of allergens (nuts, wheat, etc.)\n\n· Ensures all items are dated and following First in First Out (FIFO) standards\n\n· Weighs, grinds or packs coffee beans for guests according to their specifications\n\n· Operates the Point of Sales (POS) system ensuring accuracy of cash drops and authenticity of bills\n\n· Cleans and sanitizes work areas in accordance with supervising health agency of the area\n\n· Works across all QSR counters serving pastry, gelato, pizza and other Italian delicacies\n\n· Maintains a calm demeanor during periods of high volume\n\n· Performs other duties as required or assigned\n\nQUALIFICATIONS\n\n· Knowledgeable and enthusiastic about coffee, tea and drink preparation and product\n\n· Outstanding communication and guest service skills\n\n· Ability to perform simple mathematical calculations and follow directions for all production\n\n· 1 year barista experience on a manual espresso machine preferred\n\n· High school diploma preferred\n\nJOB REQUIREMENTS\n\n· Availability to work onsite with a flexible schedule often including early mornings, evenings and weekends\n\n· Ability to lift up to 50 pounds\n\n· Ability to exert well-paced mobility for up to 8 hours, including standing, walking, bending and squatting\n\n· Ability to operate equipment such as manual espresso machine, ovens, drink blender, juicer and Point of Sale\n\n· Dexterity for rapid and consistent espresso creation\n\nBENEFITS & PERKS\n\n· Medical, Dental, Vision Insurance and Paid Parental Leave\n\n· Paid Time Off, 401K with company match, Commuter Benefits and Plum Benefits\n\n· Free staff lunch daily and discounts at Eataly\n\n· Fun staff classes on products and Italian cuisine\n\nJob Types: Full-time, Part-time, Seasonal\n\nPay: $17.00 - $23.00 per hour\n\nBenefits:\n• 401(k)\n• 401(k) matching\n• Dental insurance\n• Disability insurance\n• Employee discount\n• Flexible schedule\n• Health insurance\n• Paid sick time\n• Paid time off\n• Paid training\n• Referral program\n• Retirement plan\n• Vision insurance\n\nRestaurant type:\n• Bakery\n• Coffee shop\n\nShift:\n• 8 hour shift\n• Day shift\n• Evening shift\n\nWeekly day range:\n• Every weekend\n• Monday to Friday\n• Weekend availability\n\nApplication Question(s):\n• Are you looking for full time or part time? What hours are you available to work? Please list weekday and weekend availability:\n• Are you fully vaccinated from covid? (two or more doses)\n\nWork Location: In person",
+            "job_highlights": [
+                {
+                    "title": "Qualifications",
+                    "items": [
+                        "Knowledgeable and enthusiastic about coffee, tea and drink preparation and product",
+                        "Outstanding communication and guest service skills",
+                        "Ability to perform simple mathematical calculations and follow directions for all production",
+                        "Availability to work onsite with a flexible schedule often including early mornings, evenings and weekends",
+                        "Ability to lift up to 50 pounds",
+                        "Ability to exert well-paced mobility for up to 8 hours, including standing, walking, bending and squatting",
+                        "Ability to operate equipment such as manual espresso machine, ovens, drink blender, juicer and Point of Sale",
+                        "Dexterity for rapid and consistent espresso creation"
+                    ]
+                },
+                {
+                    "title": "Responsibilities",
+                    "items": [
+                        "A Barista is knowledgeable about all coffee menu items, provides high-quality, fast-paced service and is able to work at multiple QSR counters performing various functions",
+                        "Reports to the QSR General Manager and the QSR Assistant General Managers",
+                        "Prepares and serves authentic Italian espresso, coffee and other café drinks at multiple counters",
+                        "Provides guests with exceptional service and product details, such as coffee blend or preparation description",
+                        "Sets up stations and replenishes displays neatly including separation of allergens (nuts, wheat, etc.)",
+                        "Ensures all items are dated and following First in First Out (FIFO) standards",
+                        "Weighs, grinds or packs coffee beans for guests according to their specifications",
+                        "Operates the Point of Sales (POS) system ensuring accuracy of cash drops and authenticity of bills",
+                        "Cleans and sanitizes work areas in accordance with supervising health agency of the area",
+                        "Works across all QSR counters serving pastry, gelato, pizza and other Italian delicacies",
+                        "Maintains a calm demeanor during periods of high volume",
+                        "Performs other duties as required or assigned",
+                        "Job Types: Full-time, Part-time, Seasonal",
+                        "8 hour shift"
+                    ]
+                },
+                {
+                    "title": "Benefits",
+                    "items": [
+                        "Starting salary range for this position is $17 per hour plus tips (tips can range from an additional $5-10 per hour)",
+                        "BENEFITS & PERKS",
+                        "Medical, Dental, Vision Insurance and Paid Parental Leave",
+                        "Paid Time Off, 401K with company match, Commuter Benefits and Plum Benefits",
+                        "Free staff lunch daily and discounts at Eataly",
+                        "Fun staff classes on products and Italian cuisine",
+                        "Pay: $17.00 - $23.00 per hour",
+                        "401(k) matching",
+                        "Disability insurance",
+                        "Employee discount",
+                        "Flexible schedule",
+                        "Health insurance",
+                        "Paid sick time",
+                        "Paid training",
+                        "Referral program",
+                        "Retirement plan"
+                    ]
+                }
+            ],
+            "related_links": [
+                {
+                    "link": "http://www.eataly.net/",
+                    "text": "eataly.net"
+                },
+                {
+                    "link": "https://www.google.com/search?sca_esv=562751389&hl=en&q=Eataly&sa=X&ved=0ahUKEwjZ4eHNzpOBAxVwCjQIHWjVDN8QmJACCO8O",
+                    "text": "See web results for Eataly"
+                }
+            ],
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiBgGHZE9P0ARe7H2NbwzWH-R_cfdHxhUiK9Bg&s=0",
+            "extensions": [
+                "Full-time",
+                "No degree mentioned",
+                "Health insurance",
+                "Dental insurance",
+                "Paid time off"
+            ],
+            "detected_extensions": {
+                "schedule_type": "Full-time"
+            },
+            "job_id": "eyJqb2JfdGl0bGUiOiJCYXJpc3RhIChXZWVrbHkgcGF5ICsgVElQUyEpIiwiaHRpZG9jaWQiOiIwRFdVYUFZVHB1blVpWUhkQUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFcUlDQ3VJQlFVMXJNbXhzUzFKTWRYWkZUWFV3Tm1ObFkwcGZlRWxKVW1GMExXUXhhSGgxYkd4bVdIUXpiRkZEWkRWb09WWjZlbTFRV2toNVYzUmtkM2w0WVVodFRWZFVaMk5PY1VOd1JEZEtNVlZHVFZSV2RUTmxVMUp3Vlc5NE1qaFFhUzFSWlVsRk1qSTVabTEyUzFZeE5IZHJMVU50Y0RZemVIQkRRa1JNWDFCR1kwVnRjM0pXY1hwMGRsTmxlWFJ2V1c5a01ITkVaRE5QZEVORFlqUm5RbGhYVURaa09VcGtVVVoxYjBwWE5USlhaVTE2V25wbE9FdDZkRWQ2T1Rrd04xVXdjblJNYW5WMllXWklORFp3U0VWR1JtNU9VMmc0VFhCelpUWk1ORWx1YmpKdFp4SVhUV3BNTTFwT2JVRk9VRU5WTUZCRlVEWkxjWG90UVRBYUlrRk1SVk01ZFU5TGJEZG9hM1JLVGsxRVVFZG5hR0Z4UnpGR04wOHhja0p3VjFFIiwiZmN2IjoiMyIsImZjX2lkIjoiZmNfMTIiLCJhcHBseV9saW5rIjp7InRpdGxlIjoiQXBwbHkgb24gU2FsYXJ5LmNvbSIsImxpbmsiOiJodHRwczovL3d3dy5zYWxhcnkuY29tL2pvYi9lYXRhbHkvYmFyaXN0YS13ZWVrbHktcGF5LXRpcHMvajIwMjMwNDI0MTYxNjQ4MzY2MjM4MCJ9fQ=="
+        }
+    ],
+    "chips": [
+        {
+            "type": "Title",
+            "param": "job_family_1",
+            "options": [
+                {
+                    "text": "All"
+                },
+                {
+                    "text": "Barista",
+                    "value": "barista"
+                },
+                {
+                    "text": "Cafe",
+                    "value": "cafe"
+                },
+                {
+                    "text": "Starbucks barista",
+                    "value": "starbucks barista"
+                },
+                {
+                    "text": "General manager",
+                    "value": "general manager"
+                },
+                {
+                    "text": "Cashier",
+                    "value": "cashier"
+                },
+                {
+                    "text": "Operator",
+                    "value": "operator"
+                },
+                {
+                    "text": "Service",
+                    "value": "service"
+                },
+                {
+                    "text": "Team member",
+                    "value": "team member"
+                },
+                {
+                    "text": "Assistant",
+                    "value": "assistant"
+                },
+                {
+                    "text": "Associate",
+                    "value": "associate"
+                },
+                {
+                    "text": "Bartender",
+                    "value": "bartender"
+                },
+                {
+                    "text": "Cafe manager",
+                    "value": "cafe manager"
+                },
+                {
+                    "text": "Coffee shop",
+                    "value": "coffee shop"
+                },
+                {
+                    "text": "Employee",
+                    "value": "employee"
+                },
+                {
+                    "text": "Location",
+                    "value": "location"
+                },
+                {
+                    "text": "Sales specialist",
+                    "value": "sales specialist"
+                }
+            ]
+        },
+        {
+            "type": "Location",
+            "param": "city",
+            "options": [
+                {
+                    "text": "All"
+                },
+                {
+                    "text": "New York, NY",
+                    "value": "Owg_06VPwoli_nfhBo8LyA=="
+                },
+                {
+                    "text": "Garden City, NY",
+                    "value": "xUU-IzV9womZ1QVzSHrgDg=="
+                },
+                {
+                    "text": "Yonkers, NY",
+                    "value": "oa9DCQjAwomi2tikhHOWvg=="
+                },
+                {
+                    "text": "Harrison, NY",
+                    "value": "RXu0a-mWwomMlCbJwnxsVA=="
+                },
+                {
+                    "text": "Valley Stream, NY",
+                    "value": "xQIUa2NkwokxeY18ZE_zWg=="
+                },
+                {
+                    "text": "Armonk, NY",
+                    "value": "d6-xgGi8wokXuqQOjd3JFA=="
+                },
+                {
+                    "text": "East Northport, NY",
+                    "value": "_SkIqH0l6ImNZknr1h_NvQ=="
+                },
+                {
+                    "text": "JOHN F KENNEDY AIRPORT, NY",
+                    "value": "/f2/JOHN F KENNEDY AIRPORT, NY"
+                },
+                {
+                    "text": "Mamaroneck, NY",
+                    "value": "x1g4l5CRwolnuqknwgxOyg=="
+                },
+                {
+                    "text": "Nyack, NY",
+                    "value": "hTF2NBDqwomq9m_ZhPL7oQ=="
+                },
+                {
+                    "text": "Oceanside, NY",
+                    "value": "zxGSjth6womUN-7jZVGx9A=="
+                },
+                {
+                    "text": "Paramus, NJ",
+                    "value": "w13uaeD6wolZ2nxhiMoN8g=="
+                },
+                {
+                    "text": "West New York, NJ",
+                    "value": "1bg4GRNYwomWLe-vqDCc4w=="
+                },
+                {
+                    "text": "Baldwin, NY",
+                    "value": "mZxjZIR7wom_Zon5y5xiFw=="
+                },
+                {
+                    "text": "Bayonne, NJ",
+                    "value": "56vO7etRwok6hbutwOr9Og=="
+                },
+                {
+                    "text": "Bronxville, NY",
+                    "value": "J0ZDIKWSwolhVb6ehTpKYw=="
+                },
+                {
+                    "text": "Cedarhurst, NY",
+                    "value": "hRc328ZlwonhXsREt2MLYQ=="
+                },
+                {
+                    "text": "Commack, NY",
+                    "value": "mUQsOuMv6IlUyZ67DrT-dg=="
+                },
+                {
+                    "text": "Copiague, NY",
+                    "value": "ewkrdIDT6Ylb7i1_Mm9-JA=="
+                },
+                {
+                    "text": "Deer Park, NY",
+                    "value": "Q3eS0jQs6IngxyZy5LLO0A=="
+                },
+                {
+                    "text": "Dobbs Ferry, NY",
+                    "value": "20Y_Ip7swom9uR3rK9UaEA=="
+                },
+                {
+                    "text": "East Meadow, NY",
+                    "value": "xRyHMgh-wokSKBTPpQZ8aw=="
+                },
+                {
+                    "text": "Elizabeth, NJ",
+                    "value": "HQVC7l9NwomtA2tSG1mFMg=="
+                },
+                {
+                    "text": "Elmont, NY",
+                    "value": "ReHg1QRjwolxNPZXDROsDA=="
+                },
+                {
+                    "text": "Elmsford, NY",
+                    "value": "G9RGDxmVwoktOUKJXYAJXQ=="
+                },
+                {
+                    "text": "Franklin Square, NY",
+                    "value": "IYqh5iFjwongahMn5I4GMg=="
+                },
+                {
+                    "text": "Great Neck Plaza, NY",
+                    "value": "5SZVhZeJwokTgtJr3bXxMw=="
+                },
+                {
+                    "text": "Greenvale, NY",
+                    "value": "J6FzXROGwokKTVapLXZvgg=="
+                },
+                {
+                    "text": "Hackensack, NJ",
+                    "value": "Sd7vtxv6wonXFt1oiK0KQg=="
+                },
+                {
+                    "text": "Hempstead, NY",
+                    "value": "YZwtguJ8wolS_jKGjXNmkA=="
+                },
+                {
+                    "text": "Hicksville, NY",
+                    "value": "u3lvHeKAwomU2kg0LrOA5A=="
+                },
+                {
+                    "text": "Hoboken, NJ",
+                    "value": "0TMVjWBXwomHvzcRasq2RA=="
+                },
+                {
+                    "text": "Huntington, NY",
+                    "value": "Z3ZhEyom6Inhf7FDLwgEsg=="
+                },
+                {
+                    "text": "Island Park, NY",
+                    "value": "h5KuEkhlwolpZv14rarIjg=="
+                },
+                {
+                    "text": "Jersey City, NJ",
+                    "value": "3a-_JdJQwonZJc2iE_BJAg=="
+                },
+                {
+                    "text": "Levittown, NY",
+                    "value": "F_y2Oit-wol5Gl0mYT6umw=="
+                },
+                {
+                    "text": "Long Beach, NY",
+                    "value": "yYQBQ_ZvwoljkDvjoW2T0w=="
+                },
+                {
+                    "text": "Lynbrook, NY",
+                    "value": "m1ynNJRkwolWhyUKSw5EKg=="
+                },
+                {
+                    "text": "Lyndhurst, NJ",
+                    "value": "t4gON21WwomNx12QDZIThg=="
+                },
+                {
+                    "text": "Manhasset, NY",
+                    "value": "QcszC_SIwol0qInu3eXcOA=="
+                },
+                {
+                    "text": "Massapequa, NY",
+                    "value": "bwHZb2R_wokON4Go9oGsyQ=="
+                },
+                {
+                    "text": "Melville, NY",
+                    "value": "7wiRxWIp6IlOSlbCn3HqiA=="
+                },
+                {
+                    "text": "Merrick, NY",
+                    "value": "b_QsaVR5woloHgvL3TUFfw=="
+                },
+                {
+                    "text": "Mineola, NY",
+                    "value": "ZSVkNPGHwonF30B16aml6A=="
+                },
+                {
+                    "text": "Mount Vernon, NY",
+                    "value": "dYAB1EeNwomPDHe_vm417g=="
+                },
+                {
+                    "text": "Nanuet, NY",
+                    "value": "MW8r0BLowonO5FzJCKUB8w=="
+                },
+                {
+                    "text": "New City, NY",
+                    "value": "FZyVPQDDwonwIFXZcYIVBw=="
+                },
+                {
+                    "text": "New Hyde Park, NY",
+                    "value": "OfwQ1pJiwolAhmseIHElsA=="
+                },
+                {
+                    "text": "New Rochelle, NY",
+                    "value": "tVa61YmNwomi2n5qO8N6zw=="
+                },
+                {
+                    "text": "Newark, NJ",
+                    "value": "HQ6aMnBTwolz5P7cKty84Q=="
+                },
+                {
+                    "text": "North Babylon, NY",
+                    "value": "A6Uqbf0s6IngvkXL9CEztg=="
+                },
+                {
+                    "text": "Northport, NY",
+                    "value": "dYgKI0ok6ImipdLHanOShw=="
+                },
+                {
+                    "text": "Nutley, NJ",
+                    "value": "qzIotmP_wontBqt3pqLN4A=="
+                }
+            ]
+        },
+        {
+            "type": "Date posted",
+            "param": "date_posted",
+            "options": [
+                {
+                    "text": "All"
+                },
+                {
+                    "text": "Past day",
+                    "value": "today"
+                },
+                {
+                    "text": "Past 3 days",
+                    "value": "3days"
+                },
+                {
+                    "text": "Past week",
+                    "value": "week"
+                },
+                {
+                    "text": "Past month",
+                    "value": "month"
+                }
+            ]
+        },
+        {
+            "type": "Requirements",
+            "param": "requirements",
+            "options": [
+                {
+                    "text": "All"
+                },
+                {
+                    "text": "No degree",
+                    "value": "no_degree"
+                },
+                {
+                    "text": "No experience",
+                    "value": "no_experience"
+                },
+                {
+                    "text": "Under 3 years of experience",
+                    "value": "years3under"
+                },
+                {
+                    "text": "3+ years of experience",
+                    "value": "years3plus"
+                }
+            ]
+        },
+        {
+            "type": "Type",
+            "param": "employment_type",
+            "options": [
+                {
+                    "text": "All"
+                },
+                {
+                    "text": "Full-time",
+                    "value": "FULLTIME"
+                },
+                {
+                    "text": "Part-time",
+                    "value": "PARTTIME"
+                },
+                {
+                    "text": "Contractor",
+                    "value": "CONTRACTOR"
+                },
+                {
+                    "text": "Internship",
+                    "value": "INTERN"
+                }
+            ]
+        },
+        {
+            "type": "Company type",
+            "param": "industry.id",
+            "options": [
+                {
+                    "text": "All"
+                },
+                {
+                    "text": "Foods & Beverages",
+                    "value": "/business/naics2007/311"
+                },
+                {
+                    "text": "Restaurant",
+                    "value": "/business/naics2007/722"
+                },
+                {
+                    "text": "Retail",
+                    "value": "/business/naics2007/44"
+                },
+                {
+                    "text": "Textiles & Apparel",
+                    "value": "/business/naics2007/313"
+                },
+                {
+                    "text": "Accommodation",
+                    "value": "/business/naics2007/721"
+                },
+                {
+                    "text": "Health Care",
+                    "value": "/business/naics2007/62"
+                },
+                {
+                    "text": "Consulting",
+                    "value": "/business/naics2007/5416"
+                },
+                {
+                    "text": "Wholesale",
+                    "value": "/business/naics2007/42"
+                }
+            ]
+        },
+        {
+            "type": "Employer",
+            "param": "organization_mid",
+            "options": [
+                {
+                    "text": "All"
+                },
+                {
+                    "text": "Starbucks",
+                    "value": "/m/018c_r"
+                },
+                {
+                    "text": "Compass Group",
+                    "value": "/m/05s08r"
+                },
+                {
+                    "text": "Bluestone Lane",
+                    "value": "/g/11fv60cnz5"
+                },
+                {
+                    "text": "Target",
+                    "value": "/m/01b39j"
+                },
+                {
+                    "text": "Barnes & Noble",
+                    "value": "/m/01b7dt"
+                },
+                {
+                    "text": "Ralph Lauren",
+                    "value": "/m/04lg33"
+                },
+                {
+                    "text": "Compass Group, North America",
+                    "value": "/g/11bc6ld96b"
+                },
+                {
+                    "text": "Sodexo",
+                    "value": "/m/042phq"
+                },
+                {
+                    "text": "The Cheesecake Factory",
+                    "value": "/m/04n2g7"
+                },
+                {
+                    "text": "Nordstrom",
+                    "value": "/m/01fc_q"
+                },
+                {
+                    "text": "Aramark",
+                    "value": "/m/02twx1"
+                },
+                {
+                    "text": "Black Fox Coffee",
+                    "value": "/g/11pz17bpqw"
+                },
+                {
+                    "text": "Dunkin'",
+                    "value": "/m/02ccc5"
+                },
+                {
+                    "text": "HBC Company Inc",
+                    "value": "/m/03gqj"
+                },
+                {
+                    "text": "Macy's Inc.",
+                    "value": "/m/01pf21"
+                },
+                {
+                    "text": "New York Gourmet Coffee",
+                    "value": "/g/11spp8qc9x"
+                },
+                {
+                    "text": "AVI FOODSYSTEMS",
+                    "value": "/m/0809bcw"
+                },
+                {
+                    "text": "Aman",
+                    "value": "/m/03npx82"
+                },
+                {
+                    "text": "Aritzia",
+                    "value": "/m/02vs4g2"
+                },
+                {
+                    "text": "Blue Bottle Coffee",
+                    "value": "/m/03p12qd"
+                }
+            ]
+        }
+    ]
+}

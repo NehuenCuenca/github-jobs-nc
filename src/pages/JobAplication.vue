@@ -28,16 +28,33 @@
       <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores odit natus perferendis
         recusandae ad cumque aperiam, et molestias? Eum adipisci quidem voluptate sapiente ipsum amet animi praesentium,
         suscipit eveniet quaerat!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi facilis autem consequuntur? Laborum, id! Dolor deleniti labore eos at voluptas impedit error incidunt ipsam, a laborum explicabo inventore modi ducimus?
-      Totam fugit tenetur exercitationem libero distinctio repellat voluptatum sunt eum, nisi incidunt ad nesciunt illum pariatur culpa cum omnis, molestiae quo ut aspernatur? In mollitia laborum earum, saepe quo iusto.
-      Ea amet aliquam beatae mollitia repellat quibusdam vero, aspernatur maiores impedit totam a voluptate necessitatibus debitis obcaecati molestias praesentium aut hic assumenda eos quaerat quod alias vitae et! Voluptatem, aperiam?
-      Doloribus placeat distinctio quisquam repellendus, possimus deserunt veritatis, voluptatum dolorum earum debitis assumenda laboriosam! Earum maxime magnam at iste? Pariatur, aliquam. Voluptatem cupiditate accusamus voluptate repellendus quasi exercitationem eligendi corporis!
-      Corporis totam facilis molestiae excepturi laborum ad! Inventore aspernatur exercitationem numquam ut cupiditate illo. Adipisci, deserunt. Optio libero natus reprehenderit! Similique, dolores eius in at incidunt error corrupti repellendus minus?
-      A nesciunt itaque fuga mollitia dolore, placeat nisi velit laudantium quibusdam, explicabo nostrum deleniti asperiores? Ut libero sequi soluta, vitae culpa eius! Doloribus, quidem. Adipisci saepe molestias nostrum veniam id.
-      Eligendi temporibus numquam sed cum minus labore? Ut, culpa magnam itaque iusto reiciendis quos perspiciatis doloremque nihil, possimus asperiores animi eveniet eum aut illo ea aspernatur quidem unde ducimus. Quaerat.
-      Asperiores aut sequi ratione eaque officiis cumque! Consectetur consequatur delectus exercitationem atque cumque temporibus impedit quod magnam perferendis voluptate aut maiores enim voluptates quibusdam veritatis minus, ea odio culpa possimus.
-      Sint modi, placeat tempora minus adipisci alias eius aliquam quaerat earum voluptas neque natus distinctio delectus obcaecati. Beatae qui consequatur odit mollitia minus repellendus accusantium? At nisi iusto neque doloremque.
-      Id animi culpa doloribus totam voluptate perferendis sunt eligendi ipsum enim voluptatum recusandae dolore sit laboriosam reiciendis, dicta blanditiis consequuntur tempore non quidem libero nesciunt odio eveniet. Suscipit, maxime temporibus.</p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi facilis autem consequuntur? Laborum, id! Dolor
+        deleniti labore eos at voluptas impedit error incidunt ipsam, a laborum explicabo inventore modi ducimus?
+        Totam fugit tenetur exercitationem libero distinctio repellat voluptatum sunt eum, nisi incidunt ad nesciunt illum
+        pariatur culpa cum omnis, molestiae quo ut aspernatur? In mollitia laborum earum, saepe quo iusto.
+        Ea amet aliquam beatae mollitia repellat quibusdam vero, aspernatur maiores impedit totam a voluptate
+        necessitatibus debitis obcaecati molestias praesentium aut hic assumenda eos quaerat quod alias vitae et!
+        Voluptatem, aperiam?
+        Doloribus placeat distinctio quisquam repellendus, possimus deserunt veritatis, voluptatum dolorum earum debitis
+        assumenda laboriosam! Earum maxime magnam at iste? Pariatur, aliquam. Voluptatem cupiditate accusamus voluptate
+        repellendus quasi exercitationem eligendi corporis!
+        Corporis totam facilis molestiae excepturi laborum ad! Inventore aspernatur exercitationem numquam ut cupiditate
+        illo. Adipisci, deserunt. Optio libero natus reprehenderit! Similique, dolores eius in at incidunt error corrupti
+        repellendus minus?
+        A nesciunt itaque fuga mollitia dolore, placeat nisi velit laudantium quibusdam, explicabo nostrum deleniti
+        asperiores? Ut libero sequi soluta, vitae culpa eius! Doloribus, quidem. Adipisci saepe molestias nostrum veniam
+        id.
+        Eligendi temporibus numquam sed cum minus labore? Ut, culpa magnam itaque iusto reiciendis quos perspiciatis
+        doloremque nihil, possimus asperiores animi eveniet eum aut illo ea aspernatur quidem unde ducimus. Quaerat.
+        Asperiores aut sequi ratione eaque officiis cumque! Consectetur consequatur delectus exercitationem atque cumque
+        temporibus impedit quod magnam perferendis voluptate aut maiores enim voluptates quibusdam veritatis minus, ea
+        odio culpa possimus.
+        Sint modi, placeat tempora minus adipisci alias eius aliquam quaerat earum voluptas neque natus distinctio
+        delectus obcaecati. Beatae qui consequatur odit mollitia minus repellendus accusantium? At nisi iusto neque
+        doloremque.
+        Id animi culpa doloribus totam voluptate perferendis sunt eligendi ipsum enim voluptatum recusandae dolore sit
+        laboriosam reiciendis, dicta blanditiis consequuntur tempore non quidem libero nesciunt odio eveniet. Suscipit,
+        maxime temporibus.</p>
     </div>
   </div>
 </template>
@@ -139,20 +156,28 @@ p a {
 }
 
 .company-data {
-  width: 30%;
+  height: 42px;
+  width: fit-content;
   display: grid;
-  grid-template-columns: .5fr 1fr;
+  grid-template-columns: auto 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas:
     "companyImg companyName"
     "companyImg companyLocation"
   ;
-  gap: 1vh 1vw;
+  gap: 1vh .5vw;
 }
 
 .company-data .company-img {
   grid-area: companyImg;
+  height: 100%;
+  width: 42px;
   place-self: center start;
+  background-color: #F2F2F2;
+  border-radius: 4px;
+  color: #BDBDBD;
+  font: 500 12px 'Roboto', sans-serif;
+  text-align: center;
 }
 
 .company-data .company-name {
@@ -190,7 +215,7 @@ p.description {
     grid-area: jobDescription;
     display: flex;
     flex-direction: column;
-    gap: 2vh 0;
+    gap: 5vh 0;
   }
 
   .job-data {
@@ -204,30 +229,20 @@ p.description {
       "publishedAt";
   }
 
-
-
   .company-data {
-    width: 70%;
-    display: grid;
-    grid-template-columns: .5fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:
-      "companyImg companyName"
-      "companyImg companyLocation"
-    ;
-    gap: 1vh 1vw;
+    gap: 1vh 2vw;
   }
 
   .company-data .company-img {
-    place-self: center start;
+    place-self: center;
   }
 
   .company-data .company-name {
-    place-self: center start;
+    place-self: end start;
   }
 
   .company-data .company-location {
-    place-self: center start;
+    place-self: start;
   }
 
 }

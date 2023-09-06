@@ -60,11 +60,10 @@ p {
   width: 100%;
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: minmax(8vh, 10vh) minmax(100vh, 140vh) minmax(6vh, 7vh);
-  grid-template-areas:
-    "header"
-    "main"
-    "footer";
+  grid-template-rows: minmax(8vh, 10vh) minmax(100vh, min-content) minmax(6vh, 7vh);
+  grid-template-areas: "header"
+  "main"
+  "footer";
 }
 
 #app > * {
@@ -79,4 +78,4 @@ p {
     /* grid-template-rows: minmax(8vh, 10vh) minmax(180vh, auto) minmax(6vh, 7vh); */
     grid-template-rows: minmax(8vh, 10vh) minmax(min-content, auto) minmax(6vh, 7vh);
   }
-}
+} 
