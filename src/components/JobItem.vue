@@ -118,7 +118,7 @@ li.job-item {
     font: 700 12px 'Roboto', sans-serif;
     border: 1px solid var(--darkOceanBlue);
     border-radius: 4px;
-    width: 25%;
+    width: max-content;
     padding: .4rem;
     place-self: start;
 }
