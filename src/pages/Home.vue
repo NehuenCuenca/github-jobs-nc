@@ -1,13 +1,13 @@
 <template>
     <div class="home-page">
-        <form class="search-jobs">
+        <form class="search-jobs" @submit.prevent="filterJobs">
             <div class="parent-input">
-                <input type="text" placeholder="💼 Title, companies, expertise or benefits">
+                <input type="text" v-model="searchByKeyword" placeholder="💼 Title, companies, expertise or benefits">
                 <button type="submit" class="search">Search</button>
             </div>
         </form>
 
-        <form class="filters">
+        <form class="filters" @submit.prevent="filterJobs">
             <ul class="checkboxes-list">
                 <li class="checkbox-filter-item">
                     <input type="checkbox" v-model="fullTimeFilter" id="full-time-filter" name="full-time-filter"
@@ -44,84 +44,23 @@
         </form>
 
         <div class="jobs-section">
-            <ul class="jobs-list">
-                <li class="job-item">
-                    <div class="rigth-section">
-                        <img class="company-img" src="" alt="not found">
-                        <span class="company-name">Company name</span>
-                        <span class="job-title">Job title</span>
-                        <span class="full-time-tag">Full time</span>
-                    </div>
-                    <div class="left-section">
-                        <span class="location">🌎 Location</span>
-                        <span class="published-at">🕒 X days ago</span>
-                    </div>
-                </li>
-                <li class="job-item">
-                    <div class="rigth-section">
-                        <img class="company-img" src="" alt="not found">
-                        <span class="company-name">Company name</span>
-                        <span class="job-title">Job title</span>
-                        <span class="full-time-tag">Full time</span>
-                    </div>
-                    <div class="left-section">
-                        <span class="location">🌎 Location</span>
-                        <span class="published-at">🕒 X days ago</span>
-                    </div>
-                </li>
-                <li class="job-item">
-                    <div class="rigth-section">
-                        <img class="company-img" src="" alt="not found">
-                        <span class="company-name">Company name</span>
-                        <span class="job-title">Job title</span>
-                        <span class="full-time-tag">Full time</span>
-                    </div>
-                    <div class="left-section">
-                        <span class="location">🌎 Location</span>
-                        <span class="published-at">🕒 X days ago</span>
-                    </div>
-                </li>
-                <li class="job-item">
-                    <div class="rigth-section">
-                        <img class="company-img" src="" alt="not found">
-                        <span class="company-name">Company name</span>
-                        <span class="job-title">Job title</span>
-                        <span class="full-time-tag">Full time</span>
-                    </div>
-                    <div class="left-section">
-                        <span class="location">🌎 Location</span>
-                        <span class="published-at">🕒 X days ago</span>
-                    </div>
-                </li>
-                <li class="job-item">
-                    <div class="rigth-section">
-                        <img class="company-img" src="" alt="not found">
-                        <span class="company-name">Company name</span>
-                        <span class="job-title">Job title</span>
-                        <span class="full-time-tag">Full time</span>
-                    </div>
-                    <div class="left-section">
-                        <span class="location">🌎 Location</span>
-                        <span class="published-at">🕒 X days ago</span>
-                    </div>
-                </li>
-            </ul>
+            <JobsList :jobs="filteredJobs" :quantity="5" />
 
             <ul class="jobs-pagination-list">
                 <li class="jobs-page-item">
-                    <button>⬅</button>
+                    <button @click="paginateDoesntWork">⬅</button>
                 </li>
                 <li class="jobs-page-item">
-                    <button>1</button>
+                    <button @click="paginateDoesntWork">1</button>
                 </li>
                 <li class="jobs-page-item">
-                    <button class="active">2</button>
+                    <button class="active" @click="paginateDoesntWork">2</button>
                 </li>
                 <li class="jobs-page-item">
-                    <button>3</button>
+                    <button @click="paginateDoesntWork">3</button>
                 </li>
                 <li class="jobs-page-item">
-                    <button>➡</button>
+                    <button @click="paginateDoesntWork">➡</button>
                 </li>
             </ul>
         </div>
@@ -129,38 +68,81 @@
 </template>
   
 <script>
-import { onMounted, ref } from 'vue'
+import { ref } from 'vue'
 import responseFromApi from '../response.json'
+import JobsList from '../components/JobsList.vue';
 
 export default {
     name: 'Home',
+    components: { JobsList },
+
     setup() {
-        const joinedWithPlus = (words) => words.split(' ').join('+')
+        const allJobs = responseFromApi.jobs_results
+        const filteredJobs = ref([...allJobs])
 
-        const apiKey = import.meta.env.VITE_SERP_API_KEY
-        const defaultZone = joinedWithPlus('New york')
-        const defaultJob = joinedWithPlus('Developer')
 
-        const fullTimeFilter = ref(false)
-        const inputTextZone = ref('')
-        const inputRadioZone = ref('')
+        // const apiKey = import.meta.env.VITE_SERP_API_KEY;
+        // const joinedWithPlus = (words) => words.split(' ').join('+');
+        // const defaultZone = joinedWithPlus('New york');
+        // const defaultJob  = joinedWithPlus('Developer');
+        // const urlApi = `https://serpapi.com/search.json?engine=google_jobs&q=${defaultJob}+${defaultZone}&hl=en&api_key=${apiKey}`;
 
-        const getResponseFromProject = async () => {
-            console.log(responseFromApi);
+        const searchByKeyword = ref('');
+        const fullTimeFilter  = ref(false);
+        const inputTextZone   = ref('');
+        const inputRadioZone  = ref('');
+
+
+
+        const paginateDoesntWork = () => {
+            console.log('The paginate it does not work, is just for design')
         }
 
-        const urlApi = `https://serpapi.com/search.json?engine=google_jobs&q=${defaultJob}+${defaultZone}&hl=en&api_key=${apiKey}`
+        const filterJobs = () => {
+            console.log('filterJobs');
 
-        onMounted(() => {
-            getResponseFromProject()
-        })
+            const jobsThatContainsKeyword = allJobs.reduce((acumJobs, job) => {
+                const { title, company_name, job_highlights } = job
+
+                const keyWordIsInTitle = title.toLowerCase().includes(searchByKeyword.value.toLowerCase())
+                const keyWordIsInCompanyName = company_name.toLowerCase().includes(searchByKeyword.value.toLowerCase())
+                const keyWordIsInBenefits = job_highlights.find(({ title }) => title === 'Benefits')?.items.includes(searchByKeyword.value.toLowerCase())
+
+
+                if (keyWordIsInTitle || keyWordIsInCompanyName || keyWordIsInBenefits) {
+                    acumJobs.push(job)
+                }
+                return acumJobs
+            }, [])
+
+            filteredJobs.value = [...jobsThatContainsKeyword]
+
+            if (fullTimeFilter.value) {
+                filteredJobs.value = [...filteredJobs.value.filter(job => job.detected_extensions.schedule_type === 'Full-time')]
+            }
+            if (inputTextZone.value) {
+                filteredJobs.value = [...filteredJobs.value.filter(({ location }) => location.toLowerCase().trim().includes(inputTextZone.value.toLowerCase()))]
+                return
+            }
+
+            if (inputRadioZone.value) {
+                filteredJobs.value = [...filteredJobs.value.filter(({ location }) => location.toLowerCase().trim().includes(inputRadioZone.value.toLowerCase()))]
+            }
+
+        }
+
+
 
         return {
-            urlApi,
             fullTimeFilter,
             inputTextZone,
             inputRadioZone,
-        }
+            allJobs,
+            filteredJobs,
+            filterJobs,
+            paginateDoesntWork,
+            searchByKeyword
+        };
     }
 }
 </script>
@@ -292,80 +274,6 @@ li.checkbox-filter-item label {
     grid-template-rows: 1fr .2fr;
 }
 
-ul.jobs-list {
-    padding: 2vh 2vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-li.job-item {
-    width: 790px;
-    height: 114px;
-    border-radius: 4px;
-    box-shadow: 0px 2px 4px 0px #0000000D;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100%;
-}
-
-.job-item .rigth-section {
-    color: var(--darkOceanBlue);
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-areas:
-        "img companyName"
-        "img jobTitle"
-        "img fullTimeTag"
-    ;
-}
-
-.rigth-section .company-img {
-    grid-area: img;
-    place-self: center;
-    width: 80%;
-    height: 80%;
-    background-color: #F2F2F2;
-    border-radius: 4px;
-    color: #BDBDBD;
-    font: 500 12px 'Roboto', sans-serif;
-    text-align: center;
-}
-
-.rigth-section .company-name {
-    grid-area: companyName;
-    font: 700 12px 'Roboto', sans-serif;
-    place-self: end start;
-}
-
-.rigth-section .job-title {
-    grid-area: jobTitle;
-    font: 400 1.125rem 'Roboto', sans-serif;
-    place-self: center start;
-}
-
-.rigth-section .full-time-tag {
-    grid-area: fullTimeTag;
-    font: 700 12px 'Roboto', sans-serif;
-    border: 1px solid var(--darkOceanBlue);
-    border-radius: 4px;
-    width: 25%;
-    padding: .4rem;
-    place-self: start;
-}
-
-.job-item .left-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    place-items: end;
-    padding-bottom: 3%;
-    font: 500 12px 'Roboto', sans-serif;
-    color: var(--placeholderGrey);
-}
-
-
 
 ul.jobs-pagination-list {
     display: flex;
@@ -428,37 +336,6 @@ li.jobs-page-item {
         padding: .5rem 1rem;
     }
 
-
-
-
-    ul.jobs-list {
-        padding: 0 2vw;
-    }
-
-    li.job-item {
-        height: auto;
-        width: 100%;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto;
-    }
-
-    .rigth-section .company-name {
-        place-self: center start;
-    }
-
-    .rigth-section .full-time-tag {
-        width: 28%;
-    }
-
-    .job-item .left-section {
-        padding: .5rem;
-        gap: 0 1vw;
-        place-items: start;
-    }
-
-    .left-section .location {
-        place-self: end;
-    }
 
     ul.jobs-pagination-list {
         width: 90%;

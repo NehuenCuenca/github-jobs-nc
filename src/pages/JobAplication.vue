@@ -11,66 +11,87 @@
       </div>
     </div>
 
-    <div class="job-description">
+    <div class="job-description" v-if="harcodedJob">
       <div class="job-data">
-        <span class="charge-title">Title of job</span>
-        <span class="full-time-tag">Full time</span>
-        <span class="published-at">🕒 X days ago</span>
+        <span class="charge-title">{{ title }}</span>
+        <span class="full-time-tag" v-if="isFullTime">Full time</span>
+        <span class="published-at">🕒 {{ publishedAt }}</span>
       </div>
 
       <div class="company-data">
-        <img src="" alt="company-img" class="company-img">
-        <span class="company-name">Company name</span>
-        <span class="company-location">🌎 Location</span>
+        <img :src="linkImgSrc" alt="company-img" class="company-img">
+        <span class="company-name">{{ companyName }}</span>
+        <span class="company-location">🌎 {{ location }}</span>
       </div>
 
 
-      <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores odit natus perferendis
-        recusandae ad cumque aperiam, et molestias? Eum adipisci quidem voluptate sapiente ipsum amet animi praesentium,
-        suscipit eveniet quaerat!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi facilis autem consequuntur? Laborum, id! Dolor
-        deleniti labore eos at voluptas impedit error incidunt ipsam, a laborum explicabo inventore modi ducimus?
-        Totam fugit tenetur exercitationem libero distinctio repellat voluptatum sunt eum, nisi incidunt ad nesciunt illum
-        pariatur culpa cum omnis, molestiae quo ut aspernatur? In mollitia laborum earum, saepe quo iusto.
-        Ea amet aliquam beatae mollitia repellat quibusdam vero, aspernatur maiores impedit totam a voluptate
-        necessitatibus debitis obcaecati molestias praesentium aut hic assumenda eos quaerat quod alias vitae et!
-        Voluptatem, aperiam?
-        Doloribus placeat distinctio quisquam repellendus, possimus deserunt veritatis, voluptatum dolorum earum debitis
-        assumenda laboriosam! Earum maxime magnam at iste? Pariatur, aliquam. Voluptatem cupiditate accusamus voluptate
-        repellendus quasi exercitationem eligendi corporis!
-        Corporis totam facilis molestiae excepturi laborum ad! Inventore aspernatur exercitationem numquam ut cupiditate
-        illo. Adipisci, deserunt. Optio libero natus reprehenderit! Similique, dolores eius in at incidunt error corrupti
-        repellendus minus?
-        A nesciunt itaque fuga mollitia dolore, placeat nisi velit laudantium quibusdam, explicabo nostrum deleniti
-        asperiores? Ut libero sequi soluta, vitae culpa eius! Doloribus, quidem. Adipisci saepe molestias nostrum veniam
-        id.
-        Eligendi temporibus numquam sed cum minus labore? Ut, culpa magnam itaque iusto reiciendis quos perspiciatis
-        doloremque nihil, possimus asperiores animi eveniet eum aut illo ea aspernatur quidem unde ducimus. Quaerat.
-        Asperiores aut sequi ratione eaque officiis cumque! Consectetur consequatur delectus exercitationem atque cumque
-        temporibus impedit quod magnam perferendis voluptate aut maiores enim voluptates quibusdam veritatis minus, ea
-        odio culpa possimus.
-        Sint modi, placeat tempora minus adipisci alias eius aliquam quaerat earum voluptas neque natus distinctio
-        delectus obcaecati. Beatae qui consequatur odit mollitia minus repellendus accusantium? At nisi iusto neque
-        doloremque.
-        Id animi culpa doloribus totam voluptate perferendis sunt eligendi ipsum enim voluptatum recusandae dolore sit
-        laboriosam reiciendis, dicta blanditiis consequuntur tempore non quidem libero nesciunt odio eveniet. Suscipit,
-        maxime temporibus.</p>
+      <p class="description">{{ description }}</p>
+    </div>
+    <div class="job-description" v-else>
+      <h3>Job not available at the moment 😬</h3>
     </div>
   </div>
 </template>
 
 <script>
-import { reactive, toRefs } from 'vue'
+import { computed, onMounted, ref } from 'vue'
+import { useRoute } from 'vue-router'
+import responseFromApi from '../response.json'
 
 export default {
   name: 'JobAplication',
   setup() {
-    const state = reactive({
-      count: 0,
+
+    // const currentJob = ref(null)
+    const harcodedJob = ref(null)
+
+    const title = computed(() => harcodedJob.value.title)
+    const isFullTime = computed(() => {
+      const scheduleIsFullTime = harcodedJob.value.detected_extensions?.schedule_type === 'Full-time'
+      return scheduleIsFullTime
+    })
+
+    const companyName = computed(() => harcodedJob.value.company_name)
+    const publishedAt = computed(() => {
+      return harcodedJob.value.detected_extensions?.posted_at || '--'
+    })
+    const location = computed(() => harcodedJob.value.location.trim())
+    const description = computed(() => `${harcodedJob.value.description}`)
+    const linkImgSrc = computed(() => `${harcodedJob.value.thumbnail}`)
+
+
+    const { params } = useRoute()
+    const { job_id } = params
+
+
+    // ! To get a response from the api you need your own backend to consult and retrieve the data for this frontend...
+    /* const getJobInfo = async () => {
+      const apiKey = import.meta.env.VITE_SERP_API_KEY;
+      try {
+        const resp = await fetch(`https://serpapi.com/search.json?engine=google_jobs&q=${searchJob}&google_domain=google.com&api_key=${apiKey}`)
+        const { jobs_results } = await resp.json()
+        currentJob.value = jobs_results[0]
+        console.log(currentJob.value);
+      } catch (error) {
+        console.error('Aca se rompio: ', error)
+        currentJob.value = null
+      }
+    } */
+
+    onMounted(() => {
+      // await getJobInfo()
+      harcodedJob.value = responseFromApi.jobs_results.find(job => job.job_id === job_id)
     })
 
     return {
-      ...toRefs(state),
+      harcodedJob,
+      title,
+      isFullTime,
+      companyName,
+      publishedAt,
+      location,
+      description,
+      linkImgSrc
     }
   }
 }
@@ -124,13 +145,13 @@ p a {
 .job-data {
   width: 40%;
   display: grid;
-  grid-template-columns: .5fr 1fr;
+  grid-template-columns: max-content 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas:
     "chargeTitle fullTimeTag"
     "publishedAt ."
   ;
-  gap: 1vh 0;
+  gap: 1vh 1vw;
 }
 
 .job-data .charge-title {
@@ -198,6 +219,7 @@ p.description {
   color: var(--darkOceanBlue);
   font: 400 1rem 'Roboto', sans-serif;
   line-height: 1.5rem;
+  white-space: pre-line
 }
 
 @media (max-width: 375px) {

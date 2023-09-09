@@ -3,7 +3,6 @@
     <div class="title">
       <span class="first-word">Github</span>
       <span class="second-word">Jobs</span>
-      <RouterLink :to="{ name: 'JobAplication', params: { job: 'asd' } }">To /job-aplication/asd</RouterLink>
     </div>
   </header>
 

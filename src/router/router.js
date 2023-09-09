@@ -1,4 +1,5 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
+import JobAplication from '../pages/JobAplication.vue'
 
 
 const routes = [
@@ -9,8 +10,8 @@ const routes = [
     },
     {   
         name: 'JobAplication',
-        path: '/job-aplication/:job', 
-        component: () => import( /* webpackChunkName: "JobAplication" */ '../pages/JobAplication.vue') 
+        path: '/job-aplication/:company/:job_id', 
+        component: () => import( /* webpackChunkName: "JobAplication" */ '../pages/JobAplication.vue'),
     },
 ]
 
